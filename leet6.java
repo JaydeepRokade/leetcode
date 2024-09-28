@@ -7,7 +7,7 @@ class MyCircularDeque {
         Arrays.fill(v, -1); // Initialize the deque with -1
         front = 0;
         back = 0;
-        size = 0; // Keeps track of the current number of elements
+        size = 0; 
         capacity = k;
     }
 
