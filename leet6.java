@@ -23,8 +23,6 @@ class MyCircularDeque {
             front--; // Simply decrement front
         }
 
-        // Way - 02 (Alternative method commented out)
-        // front = (front - 1 + capacity) % capacity;
 
         v[front] = value;
         size++;
