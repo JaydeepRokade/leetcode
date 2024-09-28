@@ -61,8 +61,6 @@ class MyCircularDeque {
             front++; // Simply increment front
         }
 
-        // Way - 02 (Alternative method commented out)
-        // front = (front + 1) % capacity;
 
         size--;
         return true;
