@@ -43,9 +43,6 @@ class MyCircularDeque {
             back++; // Simply increment back
         }
 
-        // Way - 02 (Alternative method commented out)
-        // back = (back + 1) % capacity;
-
         size++;
         return true;
     }
