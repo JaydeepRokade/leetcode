@@ -17,11 +17,11 @@ public:
 
     // Decrement the count of the key.
     void dec(string key) {
-        int n = count[key];   // Get current count
-        count[key]--;         // Decrement the count
-        se.erase({n, key});   // Remove the old pair from set
-        if (count[key] > 0) se.insert({n-1, key});  // If count > 0, insert updated pair
-        else count.erase(key);  // If count reaches 0, remove the key from map
+        int n = count[key];   // Get current count.
+        count[key]--;         // Decrement the count.
+        se.erase({n, key});   // Remove the old pair from set.
+        if (count[key] > 0) se.insert({n-1, key});  // If count > 0, insert updated pair.
+        else count.erase(key);  // If count reaches 0, remove the key from map.
     }
 
     // Get the key with the maximum count
