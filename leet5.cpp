@@ -24,13 +24,13 @@ public:
         else count.erase(key);  // If count reaches 0, remove the key from map.
     }
 
-    // Get the key with the maximum count
+    // Get the key with the maximum count.
     string getMaxKey() {
-        if (!se.empty()) return se.rbegin()->second;  // Last element gives the maximum
+        if (!se.empty()) return se.rbegin()->second;  // Last element gives the maximum.
         return "";
     }
 
-    // Get the key with the minimum count
+    // Get the key with the minimum count.
     string getMinKey() {
         if (!se.empty()) return se.begin()->second;  // First element gives the minimum
         return "";
