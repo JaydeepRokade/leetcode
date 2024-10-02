@@ -5,8 +5,8 @@ class Solution {
         Map<Integer, Integer> valueToRank = new HashMap<>();  // Map to store value-to-rank mapping
         int[] sortedUniqueNumbers = Arrays.stream(arr).distinct().sorted().toArray();  // Remove duplicates and sort
         
-        // Assign ranks to sorted unique element...................................
-        for (int i = 0; i < sortedUniqueNumbers.length; i++) {
+        // Assign ranks to sorted unique element.....................
+        for (int i = 0; i < sortedUniqueNumbers.length; i++);
             valueToRank.put(sortedUniqueNumbers[i], i + 1);
         }
 
