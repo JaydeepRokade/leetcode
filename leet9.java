@@ -7,7 +7,7 @@ class Solution {
             totalSum += num;
         }
 
-        // Find remainder when total sum is divided by p
+        // Find remainder
         int rem = (int)(totalSum % p);
         if (rem == 0) return 0; // If remainder is 0, no subarray needs to be removed
 
