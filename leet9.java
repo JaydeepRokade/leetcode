@@ -6,13 +6,10 @@ class Solution {
         for (int num : nums) {
             totalSum += num;
         }
-
-        // Find remainder
         int rem = (int)(totalSum % p);
-        if (rem == 0) return 0; // If remainder is 0, no subarray needs to be removed
-
+        if (rem == 0) return 0;
         HashMap<Integer, Integer> prefixMod = new HashMap<>();
-        prefixMod.put(0, -1);  // Initialize to handle full prefix
+        prefixMod.put(0, -1); 
         long prefixSum = 0;
         int minLength = nums.length;
 
