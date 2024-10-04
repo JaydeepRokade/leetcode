@@ -9,7 +9,7 @@ class Solution {
         int totalSkill = skill[0] + skill[n - 1]; 
         long chemistrySum = 0;
 
-        // Step 2: Pair players using two pointers
+     
         for (int i = 0; i < n / 2; i++) 
             {
             if (skill[i] + skill[n - i - 1] != totalSkill) {
