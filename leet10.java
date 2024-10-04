@@ -6,7 +6,7 @@ class Solution {
         Arrays.sort(skill);
         
         int n = skill.length;
-        int totalSkill = skill[0] + skill[n - 1]; // Required sum for each pair
+        int totalSkill = skill[0] + skill[n - 1]; 
         long chemistrySum = 0;
 
         // Step 2: Pair players using two pointers
