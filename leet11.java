@@ -8,8 +8,6 @@ class Solution {
     return true;
     int a[] = new int[26];
     int b[] = new int[26];
-
-
     for(int i=0; i<n1; i++)
     {
      a[s1.charAt(i)-'a']++;
