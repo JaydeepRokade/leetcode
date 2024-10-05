@@ -13,7 +13,6 @@ class Solution {
      a[s1.charAt(i)-'a']++;
      b[s2.charAt(i)-'a']++;   
     }
-    
     int freq = 0;
     for(int i=0; i<26; i++)
     if(a[i]==b[i])
