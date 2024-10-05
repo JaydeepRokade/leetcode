@@ -17,12 +17,10 @@ class Solution {
     for(int i=0; i<26; i++)
     if(a[i]==b[i])
     freq++;
-
     for(int i=0; i<n2-n1; i++)
     {
       if(freq==26)
       return true;
-
       int left = s2.charAt(i)-'a';
       int right = s2.charAt(i+n1)-'a';
       b[right]++;
@@ -30,16 +28,12 @@ class Solution {
       freq++;
       else if(a[right]+1==b[right])
       freq--;
-
       b[left]--;
       if(a[left]==b[left])
       freq++;
       else if(a[left]-1==b[left])
       freq--;
-
     }
       return freq==26;
-    
     }
-
 }
