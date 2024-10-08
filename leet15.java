@@ -8,7 +8,7 @@ class Solution {
             else if (size > 0) 
                 size--;
         }
-        //return give the required output.....
+        //return give the required output..........
         return (size + 1) / 2;
     }
 }
