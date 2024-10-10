@@ -2,8 +2,7 @@ class Solution {
     public int maxWidthRamp(int[] nums) {
         int n = nums.length;
         Stack<Integer> stack = new Stack<>();
-        
-        // Step 1: Build a decreasing stack of indices
+  
         for (int i = 0; i < n; ++i) {
             if (stack.isEmpty() || nums[stack.peek()] > nums[i]) {
                 stack.push(i);
