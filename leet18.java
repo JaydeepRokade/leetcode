@@ -4,10 +4,8 @@ class Solution {
         Integer[] order = new Integer[n];
         for (int i = 0; i < n; i++) order[i] = i;
         Arrays.sort(order, (a, b) -> Integer.compare(times[a][0], times[b][0]));
-
         PriorityQueue<Integer> emptySeats = new PriorityQueue<>();
         PriorityQueue<int[]> takenSeats = new PriorityQueue<>(Comparator.comparingInt(a -> a[0]));
-
         for (int i = 0; i < n; i++) emptySeats.offer(i);
 
         for (int i : order) {
