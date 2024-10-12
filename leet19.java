@@ -3,8 +3,6 @@ class Solution {
         int n = intervals.length;
         int[] start_times = new int[n];
         int[] end_times = new int[n];
-
-        // Extract start and end times
         for (int i = 0; i < n; i++) {
             start_times[i] = intervals[i][0];
             end_times[i] = intervals[i][1];
