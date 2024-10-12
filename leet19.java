@@ -8,7 +8,6 @@ class Solution {
             end_times[i] = intervals[i][1];
         }
 
-        // Sort start and end times
         Arrays.sort(start_times);
         Arrays.sort(end_times);
 
