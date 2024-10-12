@@ -13,7 +13,6 @@ class Solution {
 
         int end_ptr = 0, group_count = 0;
 
-        // Traverse through the start times
         for (int start : start_times) {
             if (start > end_times[end_ptr]) {
                 end_ptr++;
