@@ -12,11 +12,11 @@ class Solution {
         int[] smallRange = new int[]{0, Integer.MAX_VALUE};
 
         while (true) {
-            // Get the minimum element from the heap
+    
             int[] curr = minHeap.poll();
             int curMin = curr[0], listIdx = curr[1], elemIdx = curr[2];
 
-            // Update the smallest range if a better one is found
+
             if ((curMax - curMin < smallRange[1] - smallRange[0]) ||
                 (curMax - curMin == smallRange[1] - smallRange[0] && curMin < smallRange[0])) {
                 smallRange[0] = curMin;
