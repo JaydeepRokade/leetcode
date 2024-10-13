@@ -1,6 +1,6 @@
 class Solution {
     public int[] smallestRange(List<List<Integer>> nums) {
-        // Min-Heap: stores (value, list index, element index)
+        
         PriorityQueue<int[]> minHeap = new PriorityQueue<>((a, b) -> a[0] - b[0]);
         int curMax = Integer.MIN_VALUE;
 
