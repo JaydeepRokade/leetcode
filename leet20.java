@@ -9,8 +9,6 @@ class Solution {
             minHeap.offer(new int[]{nums.get(i).get(0), i, 0});
             curMax = Math.max(curMax, nums.get(i).get(0));
         }
-
-        // Track the smallest range
         int[] smallRange = new int[]{0, Integer.MAX_VALUE};
 
         while (true) {
