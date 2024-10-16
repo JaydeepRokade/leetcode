@@ -16,7 +16,6 @@ class Solution {
 
                 if (pq.isEmpty()) break; 
 
-                // Pick the second character.
                 int[] second = pq.poll();
                 result.append((char) second[1]);
                 second[0]--;
