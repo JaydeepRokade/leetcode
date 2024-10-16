@@ -2,7 +2,6 @@ import java.util.PriorityQueue;
 
 class Solution {
     public String longestDiverseString(int a, int b, int c) {
-        // Priority queue to store the characters and their counts.
         PriorityQueue<int[]> pq = new PriorityQueue<>((x, y) -> y[0] - x[0]);
         if (a > 0) pq.offer(new int[]{a, 'a'});
         if (b > 0) pq.offer(new int[]{b, 'b'});
