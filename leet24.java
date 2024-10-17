@@ -10,7 +10,6 @@ class Solution {
         for (int i = 0; i < n; i++) {
             for (int d = 9; d > numArr[i] - '0'; d--) {
                 if (last[d] > i) {
-                    // Swap and return the new number
                     char temp = numArr[i];
                     numArr[i] = numArr[last[d]];
                     numArr[last[d]] = temp;
