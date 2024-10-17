@@ -7,8 +7,6 @@ class Solution {
         for (int i = 0; i < n; i++) {
             last[numArr[i] - '0'] = i;
         }
-
-        // Traverse the number from left to right
         for (int i = 0; i < n; i++) {
             // Check if we can find a larger digit to swap
             for (int d = 9; d > numArr[i] - '0'; d--) {
