@@ -18,7 +18,6 @@ class Solution {
             }
         }
 
-        // Return the original number if no swap occurred
         return num;
     }
 }
