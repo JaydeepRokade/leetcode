@@ -8,7 +8,6 @@ class Solution {
             last[numArr[i] - '0'] = i;
         }
         for (int i = 0; i < n; i++) {
-            // Check if we can find a larger digit to swap
             for (int d = 9; d > numArr[i] - '0'; d--) {
                 if (last[d] > i) {
                     // Swap and return the new number
