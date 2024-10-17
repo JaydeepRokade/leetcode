@@ -1,6 +1,5 @@
 class Solution {
     public int maximumSwap(int num) {
-        // Convert number to string for digit manipulation
         char[] numArr = Integer.toString(num).toCharArray();
         int n = numArr.length;
 
