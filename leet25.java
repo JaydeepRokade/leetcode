@@ -12,7 +12,6 @@ class Solution {
     public int countMaxOrSubsets(int[] nums) {
         int maxOR = 0;
 
-        // Step 1: Compute the maximum OR
         for (int num : nums) {
             maxOR |= num;
         }
