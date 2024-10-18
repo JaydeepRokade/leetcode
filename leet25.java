@@ -17,7 +17,6 @@ class Solution {
         }
         int[] count = new int[1];
         backtrack(nums, 0, 0, maxOR, count);
-
         return count[0];
     }
 }
