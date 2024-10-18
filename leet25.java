@@ -15,7 +15,6 @@ class Solution {
         for (int num : nums) {
             maxOR |= num;
         }
-
         int[] count = new int[1];
         backtrack(nums, 0, 0, maxOR, count);
 
