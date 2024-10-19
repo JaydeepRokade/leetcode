@@ -7,10 +7,8 @@ class Solution {
             backtrack(nums, i + 1, currentOR | nums[i], maxOR, count);
         }
     }
-
     public int countMaxOrSubsets(int[] nums) {
         int maxOR = 0;
-
         for (int num : nums) {
             maxOR |= num;
         }
