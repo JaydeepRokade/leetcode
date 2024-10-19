@@ -3,7 +3,6 @@ class Solution {
         if (currentOR == maxOR) {
             count[0]++;
         }
-
         for (int i = index; i < nums.length; i++) {
             backtrack(nums, i + 1, currentOR | nums[i], maxOR, count);
         }
