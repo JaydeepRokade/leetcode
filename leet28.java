@@ -16,13 +16,13 @@ class Solution {
                 if (node.left != null) q.add(node.left);
                 if (node.right != null) q.add(node.right);
             }
-            res.add(sum);  // Store the sum of the current level
+            res.add(sum);  
         }
 
         if (k > res.size()) return -1;
         
-        res.sort(Collections.reverseOrder());  // Sort level sums in descending order
+        res.sort(Collections.reverseOrder());  
         
-        return res.get(k - 1);  // Return the k-th largest sum
+        return res.get(k - 1);  
     }
 }
