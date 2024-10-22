@@ -1,10 +1,4 @@
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     
- *     }
- * }
- */
+
 class Solution {
     public long kthLargestLevelSum(TreeNode root, int k) {
         List<Long> res = new ArrayList<>();  // To store sum of each level
