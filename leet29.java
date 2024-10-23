@@ -4,6 +4,7 @@ class Solution {
         root.val = 0;
         return root;
     }
+    
     private void dfs(TreeNode[] arr) {
         if (arr.length == 0) return;
         int sum = 0;
@@ -12,6 +13,7 @@ class Solution {
             if (node.left != null) sum += node.left.val;
             if (node.right != null) sum += node.right.val;
         }
+        
         TreeNode[] childArr = new TreeNode[arr.length * 2];
         int index = 0;
         for (TreeNode node : arr) {
@@ -22,6 +24,7 @@ class Solution {
                 node.left.val = sum - curSum;
                 childArr[index++] = node.left;
             }
+            
             if (node.right != null) {
                 node.right.val = sum - curSum;
                 childArr[index++] = node.right;
