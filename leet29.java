@@ -14,12 +14,10 @@ class Solution {
         }
         TreeNode[] childArr = new TreeNode[arr.length * 2];
         int index = 0;
-
         for (TreeNode node : arr) {
             int curSum = 0;
             if (node.left != null) curSum += node.left.val;
             if (node.right != null) curSum += node.right.val;
-
             if (node.left != null) {
                 node.left.val = sum - curSum;
                 childArr[index++] = node.left;
@@ -29,7 +27,6 @@ class Solution {
                 childArr[index++] = node.right;
             }
         }
-
         dfs(java.util.Arrays.copyOf(childArr, index));
     }
 }
