@@ -22,6 +22,7 @@ class Solution {
                 cnt++;
             }
         }
+        
         for(int i=0;i<cnt;i++)
         {
             li.add(0);
