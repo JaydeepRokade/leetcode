@@ -1,6 +1,5 @@
 class Solution {
     public List<String> removeSubfolders(String[] folder) {
-        // Sort the folders lexicographically so parent folders come before their subfolders
         Arrays.sort(folder);
         
         // Initialize result list with the first folder
