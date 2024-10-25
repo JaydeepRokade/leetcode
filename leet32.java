@@ -8,8 +8,6 @@ class Solution {
             // Get the last added folder path and add a trailing slash
             String lastFolder = ans.get(ans.size() - 1) + "/";
             
-            // Check if current folder starts with lastFolder
-            // If it doesn't start with lastFolder, then it's not a subfolder
             if (!folder[i].startsWith(lastFolder)) {
                 ans.add(folder[i]);
             }
