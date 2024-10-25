@@ -5,7 +5,6 @@ class Solution {
         List<String> ans = new ArrayList<>();
         ans.add(folder[0]);
         for (int i = 1; i < folder.length; i++) {
-            // Get the last added folder path and add a trailing slash
             String lastFolder = ans.get(ans.size() - 1) + "/";
             
             if (!folder[i].startsWith(lastFolder)) {
