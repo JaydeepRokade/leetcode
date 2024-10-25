@@ -2,7 +2,6 @@ class Solution {
     public List<String> removeSubfolders(String[] folder) {
         Arrays.sort(folder);
         
-        // Initialize result list with the first folder
         List<String> ans = new ArrayList<>();
         ans.add(folder[0]);
         
