@@ -1,4 +1,3 @@
-
 class Solution {
     int depth[];
     int levelArr[];
@@ -19,7 +18,6 @@ class Solution {
             max2[level] = depth[root.val]; 
      return depth[root.val];
     }
-    
     
     public int[] treeQueries(TreeNode root, int[] queries) {
         depth = new int[100001];
