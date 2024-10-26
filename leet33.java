@@ -1,8 +1,5 @@
 /**
- *
- *     
- *     }
- * }
+
  */
 class Solution {
     int depth[];
