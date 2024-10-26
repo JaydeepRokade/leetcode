@@ -18,13 +18,11 @@ class Solution {
             max2[level] = depth[root.val]; 
      return depth[root.val];
     }
-    
     public int[] treeQueries(TreeNode root, int[] queries) {
         depth = new int[100001];
         levelArr = new int[100001];
         max1 = new int[100001];
         max2 = new int[100001];
-        
         height(root, 0);
         for(int i=0; i<queries.length; i++)
         {
@@ -32,8 +30,7 @@ class Solution {
          int level = levelArr[q];
          queries[i] = (max1[level]==depth[q]? max2[level] : max1[level]) + level - 1;  
             
-        }
-        
+        }   
        return queries; 
     }
 }
