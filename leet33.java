@@ -1,12 +1,8 @@
 class Solution {
     int depth[];
-    
     int levelArr[];
-    
     int max1[];
-    
-    int max2[]; 
-    
+    int max2[];
     public int height(TreeNode root, int level)
     {
      if(root==null)
