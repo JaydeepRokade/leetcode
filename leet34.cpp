@@ -11,12 +11,12 @@ public:
         
         for (int i = 0; i < n; i++) {
             dp[i][0] = matrix[i][0];
-            ans += dp[i][0];  // Add the count of squares from the first column
+            ans += dp[i][0]; 
         }
         
         for (int j = 1; j < m; j++) {
             dp[0][j] = matrix[0][j];
-            ans += dp[0][j];  // Add the count of squares from the first row
+            ans += dp[0][j];  
         }
         
         // Fill the DP table for remaining cells
