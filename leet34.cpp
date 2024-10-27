@@ -5,14 +5,10 @@ public:
         int n = matrix.size();   
         int m = matrix[0].size(); 
         
-        // Create a DP table with same dimensions as matrix
         vector<vector<int>> dp(n, vector<int>(m, 0));
         
-        // Variable to store total count of squares
         int ans = 0;
         
-        // Initialize first column of DP table
-        // Each cell in first column can only form a 1x1 square if matrix[i][0] = 1
         for (int i = 0; i < n; i++) {
             dp[i][0] = matrix[i][0];
             ans += dp[i][0];  // Add the count of squares from the first column
