@@ -1,9 +1,9 @@
 class Solution {
 public:
     int countSquares(vector<vector<int>>& matrix) {
-        // Get dimensions of the matrix
-        int n = matrix.size();    // number of rows
-        int m = matrix[0].size(); // number of columns
+    
+        int n = matrix.size();   
+        int m = matrix[0].size(); 
         
         // Create a DP table with same dimensions as matrix
         vector<vector<int>> dp(n, vector<int>(m, 0));
