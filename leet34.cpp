@@ -19,7 +19,6 @@ public:
             ans += dp[0][j];  
         }
         
-        // Fill the DP table for remaining cells
         for(int i = 1; i < n; i++) {
             for(int j = 1; j < m; j++) {
                 // Only process if current cell in matrix is 1
