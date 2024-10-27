@@ -24,11 +24,6 @@ public:
             for(int j = 1; j < m; j++) {
                 // Only process if current cell in matrix is 1
                 if(matrix[i][j] == 1) {
-                    // For each cell, check the minimum value among:
-                    // 1. Left cell (dp[i][j-1])
-                    // 2. Top cell (dp[i-1][j])
-                    // 3. Top-left diagonal cell (dp[i-1][j-1])
-                    // Add 1 to this minimum value
                     dp[i][j] = 1 + min({dp[i][j-1], dp[i-1][j], dp[i-1][j-1]});
                 }
                 // Add current cell's value to total count
