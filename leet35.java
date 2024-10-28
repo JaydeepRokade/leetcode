@@ -3,7 +3,6 @@ class Solution {
         Map<Integer, Integer> mp = new HashMap<>();
         Arrays.sort(nums);
         int res = -1;
-
         for (int num : nums) {
             int sqrt = (int) Math.sqrt(num);
 
