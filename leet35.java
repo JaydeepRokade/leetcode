@@ -5,7 +5,6 @@ class Solution {
         int res = -1;
         for (int num : nums) {
             int sqrt = (int) Math.sqrt(num);
-
             if (sqrt * sqrt == num && mp.containsKey(sqrt)) {
                 mp.put(num, mp.get(sqrt) + 1);
                 res = Math.max(res, mp.get(num));
