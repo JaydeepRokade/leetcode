@@ -4,12 +4,10 @@ public:
         // Get dimensions of the grid
         int m = grid.size();    // number of rows
         int n = grid[0].size(); // number of columns
-        
         // res will store the rightmost column we can reach
         int res = 0;
+
         
-        // dp array stores the maximum number of moves possible to reach each cell
-        // in the current column we're processing
         vector<int> dp(m);
         
         // Iterate through each column from left to right (starting from column 1)
