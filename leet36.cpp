@@ -10,7 +10,6 @@ public:
         
         for (int j = 1; j < n; ++j) {
             int leftTop = 0;
-            // found indicates if we can reach any cell in current column
             bool found = false;
             
             for (int i = 0; i < m; ++i) {
