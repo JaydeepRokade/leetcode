@@ -1,10 +1,8 @@
 class Solution {
 public:
     int maxMoves(vector<vector<int>>& grid) {
-        // Get dimensions of the grid
-        int m = grid.size();    // number of rows
-        int n = grid[0].size(); // number of columns
-        // res will store the rightmost column we can reach
+        int m = grid.size();  
+        int n = grid[0].size(); 
         int res = 0;
 
         
