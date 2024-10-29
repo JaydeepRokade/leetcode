@@ -11,7 +11,6 @@ public:
         vector<int> dp(m);
         
         for (int j = 1; j < n; ++j) {
-            // leftTop keeps track of the dp value from the cell above-left
             int leftTop = 0;
             // found indicates if we can reach any cell in current column
             bool found = false;
