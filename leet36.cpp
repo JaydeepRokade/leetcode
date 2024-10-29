@@ -10,7 +10,6 @@ public:
         
         vector<int> dp(m);
         
-        // Iterate through each column from left to right (starting from column 1)
         for (int j = 1; j < n; ++j) {
             // leftTop keeps track of the dp value from the cell above-left
             int leftTop = 0;
