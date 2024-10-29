@@ -13,7 +13,6 @@ public:
             // found indicates if we can reach any cell in current column
             bool found = false;
             
-            // Iterate through each row in current column
             for (int i = 0; i < m; ++i) {
                 // cur will store the maximum moves to reach current cell
                 int cur = -1;
