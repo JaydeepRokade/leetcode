@@ -42,7 +42,6 @@ public:
                 leftTop = nxtLeftTop;
             }
             
-            // If we can't reach any cell in current column, break
             if (!found) break;
             // Update result to current column if we can reach it
             res = j;
