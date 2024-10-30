@@ -12,8 +12,6 @@ class Solution {
                 }
             }
         }
-
-        // Compute LDS from each index
         for (int i = n - 1; i >= 0; --i) {
             for (int j = n - 1; j > i; --j) {
                 if (nums[i] > nums[j]) {
