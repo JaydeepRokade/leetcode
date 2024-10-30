@@ -5,7 +5,6 @@ class Solution {
         Arrays.fill(LIS, 1);
         Arrays.fill(LDS, 1);
 
-        // Compute LIS for each index
         for (int i = 0; i < n; ++i) {
             for (int j = 0; j < i; ++j) {
                 if (nums[i] > nums[j]) {
