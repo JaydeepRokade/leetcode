@@ -44,7 +44,6 @@ class Solution {
         public K getKey() {
             return key;
         }
-        
         public V getValue() {
             return value;
         }
