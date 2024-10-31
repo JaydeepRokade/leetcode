@@ -24,7 +24,6 @@ class Solution {
                 while (!qq.isEmpty() && qq.peekLast().getValue() >= dp[i][j + 1] - prefix) {
                     qq.pollLast();
                 }
-                
                 qq.offerLast(new Pair<>(i, dp[i][j + 1] - prefix));
                 dp[i][j] = qq.peekFirst().getValue() + prefix;
             }
