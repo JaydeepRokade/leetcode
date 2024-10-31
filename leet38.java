@@ -21,7 +21,6 @@ class Solution {
                 while (!qq.isEmpty() && qq.peekFirst().getKey() > i + factory[j][1]) {
                     qq.pollFirst();
                 }
-                
                 while (!qq.isEmpty() && qq.peekLast().getValue() >= dp[i][j + 1] - prefix) {
                     qq.pollLast();
                 }
