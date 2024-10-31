@@ -10,7 +10,6 @@ class Solution {
         for (int i = 0; i < m; i++) {
             dp[i][n] = Long.MAX_VALUE;
         }
-        
         for (int j = n - 1; j >= 0; j--) {
             long prefix = 0;
             Deque<Pair<Integer, Long>> qq = new ArrayDeque<>();
