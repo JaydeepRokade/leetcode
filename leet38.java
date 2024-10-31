@@ -2,7 +2,6 @@ class Solution {
     public long minimumTotalDistance(List<Integer> robot, int[][] factory) {
         Collections.sort(robot);
         Arrays.sort(factory, (a, b) -> Integer.compare(a[0], b[0]));
-        
         int m = robot.size();
         int n = factory.length;
         
