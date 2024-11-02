@@ -7,9 +7,6 @@ class Solution {
 
         // Find the first space in the string
         int k = sentence.indexOf(" ");
-        
-        // If there are no spaces, it means there's only one word
-        // In this case, we already checked if first and last letters match
         if (k == -1)
             return true;
 
