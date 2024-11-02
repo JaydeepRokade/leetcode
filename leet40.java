@@ -12,9 +12,6 @@ class Solution {
 
         // Iterate through all spaces in the string
         while (k != -1) {
-            // For each space found:
-            // Check if the character before the space (last letter of current word)
-            // matches the character after the space (first letter of next word)
             if (sentence.charAt(k - 1) != sentence.charAt(k + 1)) {
                 return false;
             }
