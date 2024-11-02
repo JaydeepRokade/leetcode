@@ -15,8 +15,6 @@ class Solution {
             if (sentence.charAt(k - 1) != sentence.charAt(k + 1)) {
                 return false;
             }
-
-            // Find the next space in the string, starting from position after current space
             k = sentence.indexOf(" ", k+1);
         }
         
