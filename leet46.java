@@ -3,7 +3,6 @@ class Solution {
         int n = nums.length;
         int xorr = nums[0];
         int maxXor = (1 << maximumBit) - 1;
-
         for (int i = 1; i < n; i++) {
             xorr ^= nums[i];
         }
