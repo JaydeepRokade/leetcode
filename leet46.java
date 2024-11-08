@@ -5,7 +5,6 @@ class Solution {
         int maxXor = (1 << maximumBit) - 1;
         for (int i = 1; i < n; i++) {
             xorr ^= nums[i];
-            
         }
         int[] ans = new int[n];
         for (int i = 0; i < n; i++) {
