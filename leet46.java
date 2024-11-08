@@ -11,7 +11,6 @@ class Solution {
             ans[i] = xorr ^ maxXor;
             xorr ^= nums[n - 1 - i];
         }
-
         return ans;
     }
 }
