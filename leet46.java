@@ -7,7 +7,6 @@ class Solution {
         for (int i = 1; i < n; i++) {
             xorr ^= nums[i];
         }
-
         int[] ans = new int[n];
         for (int i = 0; i < n; i++) {
             ans[i] = xorr ^ maxXor;
