@@ -4,8 +4,7 @@ class Solution {
         long result = x;
         
         long remaining = n - 1;
-        long position = 1;
-        
+        long position = 1;  
         while (remaining != 0) {
             if ((x & position) == 0) {
                 result |= (remaining & 1) * position;
