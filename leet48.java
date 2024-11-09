@@ -2,7 +2,6 @@ class Solution {
     public long minEnd(int n, int x) {
         
         long result = x;
-        
         long remaining = n - 1;
         long position = 1;  
         while (remaining != 0) {
