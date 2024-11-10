@@ -13,7 +13,6 @@ class Solution {
     } 
     return min==Integer.MAX_VALUE ? -1 : min;   
     }
-
     public void updateBits(int count[], int num, int val)
     {
       for(int i=0; i<32; i++)
