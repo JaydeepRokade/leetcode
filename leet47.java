@@ -16,8 +16,7 @@ class Solution {
     public void updateBits(int count[], int num, int val)
     {
       for(int i=0; i<32; i++)
-      {
-        if(((num>>i)&1)==1)
+      { if(((num>>i)&1)==1)
         count[i] += val;
       }  
     }
