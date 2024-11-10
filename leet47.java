@@ -5,8 +5,7 @@ class Solution {
     while(end<nums.length)
     { updateBits(count, nums[end], 1);
       while(start<=end && getVal(count)>=k)
-      {
-        min = Math.min(min, end-start+1);
+      {  min = Math.min(min, end-start+1);
         updateBits(count, nums[start], -1);
         start++;
       } 
