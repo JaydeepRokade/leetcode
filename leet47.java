@@ -20,8 +20,7 @@ class Solution {
       }  
     }
     public int getVal(int[] count)
-    {
-        int ans = 0; 
+    { int ans = 0; 
        for(int i=0; i<32; i++)
        {
         if(count[i]>0)
