@@ -3,8 +3,7 @@ class Solution {
     int[] count = new int[32];
     int start = 0, end = 0, min = Integer.MAX_VALUE;
     while(end<nums.length)
-    {
-      updateBits(count, nums[end], 1);
+    { updateBits(count, nums[end], 1);
       while(start<=end && getVal(count)>=k)
       {
         min = Math.min(min, end-start+1);
