@@ -24,7 +24,6 @@ class Solution {
         count[i] += val;
       }  
     }
-
     public int getVal(int[] count)
     {
         int ans = 0; 
