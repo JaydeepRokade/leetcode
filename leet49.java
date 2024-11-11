@@ -38,7 +38,6 @@ class Solution {
         }
         return max;
     }
-
     private void fill(boolean[] arr, boolean value) {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = value;
