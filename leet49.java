@@ -29,7 +29,6 @@ class Solution {
         }
         return true;
     }
-
     private int getMaxElement(int[] nums) {
         int max = -1;
         for (int num : nums) {
