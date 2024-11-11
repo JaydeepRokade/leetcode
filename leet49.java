@@ -1,8 +1,6 @@
 class Solution {
     public boolean primeSubOperation(int[] nums) {
         int maxElement = getMaxElement(nums);
-
-        // Create Sieve of Eratosthenes array to identify prime numbers
         boolean[] sieve = new boolean[maxElement + 1];
         fill(sieve, true);
         sieve[1] = false;
