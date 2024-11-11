@@ -21,7 +21,6 @@ class Solution {
                 return false;
             }
 
-            // Move to next number if difference is prime or zero
             if (sieve[difference] == true || difference == 0) {
                 i++;
                 currValue++;
