@@ -41,7 +41,6 @@ class Solution {
         return max;
     }
 
-    // Helper method to initialize boolean array
     private void fill(boolean[] arr, boolean value) {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = value;
