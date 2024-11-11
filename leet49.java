@@ -31,7 +31,6 @@ class Solution {
         return true;
     }
 
-    // Helper method to find maximum element in array
     private int getMaxElement(int[] nums) {
         int max = -1;
         for (int num : nums) {
