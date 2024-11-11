@@ -12,7 +12,6 @@ class Solution {
             }
         }
 
-        // Check if array can be made strictly increasing by subtracting prime numbers
         int currValue = 1;
         int i = 0;
         while (i < nums.length) {
