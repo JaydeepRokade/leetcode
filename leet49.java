@@ -11,7 +11,6 @@ class Solution {
                 }
             }
         }
-
         int currValue = 1;
         int i = 0;
         while (i < nums.length) {
