@@ -17,7 +17,6 @@ class Solution {
         while (i < nums.length) {
             int difference = nums[i] - currValue;
 
-            // Return false if current number is already smaller than required value
             if (difference < 0) {
                 return false;
             }
