@@ -2,7 +2,6 @@ public class Solution {
     public int[] maximumBeauty(int[][] items, int[] queries) {
         Arrays.sort(items,(a,b)-> a[0]==b[0]? b[1]-a[1] : a[0]-b[0]);
         int currMaxBeauty=0;
-
         TreeMap<Integer,Integer> map=new TreeMap<>();
         for(int[] item:items)
         {
