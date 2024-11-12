@@ -13,7 +13,6 @@ public class Solution {
             map.put(price,currMaxBeauty);
             
         }
-
          int no_queries=queries.length;
         int[] answer=new int[no_queries];
 
