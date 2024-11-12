@@ -7,7 +7,6 @@ public class Solution {
         {
             int price=item[0];
             int beauty=item[1];
-
             if(currMaxBeauty>=beauty)
               continue;
             currMaxBeauty=beauty;
