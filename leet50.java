@@ -1,8 +1,6 @@
 public class Solution {
     public int[] maximumBeauty(int[][] items, int[] queries) {
         // Sort items by price ,
-        // if they have same price -> then sort by beauty in descending order
-
         Arrays.sort(items,(a,b)-> a[0]==b[0]? b[1]-a[1] : a[0]-b[0]);
         int currMaxBeauty=0;
 
