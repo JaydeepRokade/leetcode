@@ -9,6 +9,7 @@ public:
         }
         return stores<=n;
     }
+
     int minimizedMaximum(int n, vector<int>& quantities) {
         int maxi=0;
         long long sum=0;
