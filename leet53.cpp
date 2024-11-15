@@ -16,8 +16,7 @@ public:
         }
         
         int result = min(n - left - 1, right);
-        
-        // Step 4: Use two pointers to find the smallest middle part to remove
+       
         int i = 0, j = right;
         while (i <= left && j < n) {
             if (arr[i] <= arr[j]) {
