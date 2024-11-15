@@ -15,7 +15,6 @@ public:
             right--;
         }
         
-        // Step 3: Find the minimum length to remove by comparing prefix and suffix
         int result = min(n - left - 1, right);
         
         // Step 4: Use two pointers to find the smallest middle part to remove
