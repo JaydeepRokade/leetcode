@@ -9,8 +9,7 @@ public:
         }
         
         if (left == n - 1) return 0;
-        
-        // Step 2: Find the longest non-decreasing suffix
+       
         int right = n - 1;
         while (right > 0 && arr[right - 1] <= arr[right]) {
             right--;
