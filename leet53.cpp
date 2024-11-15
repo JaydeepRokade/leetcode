@@ -11,8 +11,7 @@ public:
         while (right > 0 && arr[right - 1] <= arr[right]) {
             right--;
         }  
-        int result = min(n - left - 1, right);
-       
+        int result = min(n - left - 1, right);     
         int i = 0, j = right;
         while (i <= left && j < n) {
             if (arr[i] <= arr[j]) {
@@ -22,7 +21,6 @@ public:
                 j++;
             }
         }
-        
         return result;
     }
 };
