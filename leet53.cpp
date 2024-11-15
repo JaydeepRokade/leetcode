@@ -8,7 +8,6 @@ public:
             left++;
         }
         
-        // If the entire array is already sorted
         if (left == n - 1) return 0;
         
         // Step 2: Find the longest non-decreasing suffix
