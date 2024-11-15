@@ -3,7 +3,6 @@ public:
     int findLengthOfShortestSubarray(vector<int>& arr) {
         int n = arr.size();
         
-        // Step 1: Find the longest non-decreasing prefix
         int left = 0;
         while (left + 1 < n && arr[left] <= arr[left + 1]) {
             left++;
