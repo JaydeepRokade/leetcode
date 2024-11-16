@@ -17,8 +17,7 @@ class Solution {
             i++;
             j++;
             a++;
-        }
-        return arr;
+        } return arr;
     }
     private boolean solved(int nums[],int start,int end){
         for(int i=start;i<end;i++){
