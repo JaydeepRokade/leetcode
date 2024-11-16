@@ -3,7 +3,6 @@ class Solution {
             if (nums == null || nums.length < k) {
             return new int[0];
         }
-
         int arr[]=new int[nums.length-k+1];
         int i=0;
         int j=k-1;
