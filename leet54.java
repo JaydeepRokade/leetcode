@@ -2,8 +2,7 @@ class Solution {
     public int[] resultsArray(int[] nums, int k) {
             if (nums == null || nums.length < k) {
             return new int[0];
-        }
-        int arr[]=new int[nums.length-k+1];
+        } int arr[]=new int[nums.length-k+1];
         int i=0;
         int j=k-1;
         int a=0;
