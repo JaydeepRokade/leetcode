@@ -19,7 +19,6 @@ class Solution {
             a++;
         }
         return arr;
-        
     }
 
     private boolean solved(int nums[],int start,int end){
