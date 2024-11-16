@@ -20,7 +20,6 @@ class Solution {
         }
         return arr;
     }
-
     private boolean solved(int nums[],int start,int end){
         for(int i=start;i<end;i++){
             if(nums[i]+1!=nums[i+1]){
