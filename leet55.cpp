@@ -15,8 +15,6 @@ public:
                 q.pop_front();
                 res = min(res, r - endIdx);
             }
-            
-            // Validate the monotonic deque
             while (!q.empty() && q.back().first > curSum) {
                 q.pop_back();
             }
