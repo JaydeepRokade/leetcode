@@ -3,8 +3,7 @@ public:
     int shortestSubarray(vector<int>& nums, int k) {
         int res = INT_MAX;
         long long curSum = 0;
-        deque<pair<long long, int>> q;  // (prefix_sum, end_idx)
-        
+        deque<pair<long long, int>> q;  
         for (int r = 0; r < nums.size(); r++) {
             curSum += nums[r];
             
