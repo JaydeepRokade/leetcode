@@ -10,8 +10,6 @@ public:
             if (curSum >= k) {
                 res = min(res, r + 1);
             }
-            
-            // Find the minimum valid window ending at r
             while (!q.empty() && curSum - q.front().first >= k) {
                 auto [prefix, endIdx] = q.front();
                 q.pop_front();
