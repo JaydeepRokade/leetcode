@@ -19,7 +19,6 @@ public:
             }
             q.push_back({curSum, r});
         }
-        
         return res == INT_MAX ? -1 : res;
     }
 };
