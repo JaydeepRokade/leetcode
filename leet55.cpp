@@ -18,7 +18,6 @@ public:
                 q.pop_back();
             }
             q.push_back({curSum, r});
-        }
-        return res == INT_MAX ? -1 : res;
+        } return res == INT_MAX ? -1 : res;
     }
 };
