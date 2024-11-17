@@ -6,7 +6,6 @@ public:
         deque<pair<long long, int>> q;  
         for (int r = 0; r < nums.size(); r++) {
             curSum += nums[r];
-            
             if (curSum >= k) {
                 res = min(res, r + 1);
             }
