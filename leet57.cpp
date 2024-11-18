@@ -19,7 +19,6 @@ public:
         for(int r=0, l=n-k; r<n-1; r++, l++){
             wsum+=-code[l%n]+code[r];
             ans[r+1]=wsum;
-        }
-        return ans;
+        }  return ans;
     }
 };
