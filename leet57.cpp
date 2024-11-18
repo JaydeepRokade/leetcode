@@ -10,7 +10,7 @@ public:
             for(int l=1, r=k+1; l<n ; r++, l++){
                 wsum+=-code[l]+code[r%n];
                 ans[l]=wsum;
-            }  return ans;
+            } return ans;
         }
         k=-k;
         int wsum=accumulate(code.end()-k , code.end(), 0);
