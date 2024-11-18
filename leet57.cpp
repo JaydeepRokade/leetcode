@@ -13,7 +13,6 @@ public:
             }
             return ans;
         }
-        // k<0
         k=-k;
         int wsum=accumulate(code.end()-k , code.end(), 0);
         ans[0]=wsum;
