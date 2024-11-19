@@ -10,7 +10,6 @@ public:
             if (elements.find(nums[end]) == elements.end()) {
                 current_sum += nums[end];
                 elements.insert(nums[end]);
-                
                 if (end - begin + 1 == k) {
                     max_sum = max(max_sum, current_sum);
                     current_sum -= nums[begin];
