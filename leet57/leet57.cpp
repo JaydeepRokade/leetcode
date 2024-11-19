@@ -25,7 +25,6 @@ public:
                 begin++;
             }
         }
-        
         return max_sum;
     }
 };
