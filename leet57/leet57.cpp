@@ -6,7 +6,6 @@ public:
         long long current_sum = 0;
         long long max_sum = 0;
         int begin = 0;
-        
         for (int end = 0; end < n; end++) {
             if (elements.find(nums[end]) == elements.end()) {
                 current_sum += nums[end];
