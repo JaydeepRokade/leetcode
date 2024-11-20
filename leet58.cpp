@@ -12,7 +12,6 @@ public:
         int l = 0;
         for (int r = 0; r < s.length(); r++) {
             count[s[r] - 'a']--;
-            
             while (*min_element(count.begin(), count.end()) < k) {
                 count[s[l] - 'a']++;
                 l++;
