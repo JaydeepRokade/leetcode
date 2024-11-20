@@ -5,7 +5,6 @@ public:
         for (char c : s) {
             count[c - 'a']++;
         }
-        
         if (*min_element(count.begin(), count.end()) < k) {
             return -1;
         }
