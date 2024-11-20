@@ -8,8 +8,6 @@ public:
         if (*min_element(count.begin(), count.end()) < k) {
             return -1;
         }
-        
-        // Sliding Window
         int res = INT_MAX;
         int l = 0;
         for (int r = 0; r < s.length(); r++) {
