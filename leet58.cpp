@@ -1,7 +1,6 @@
 class Solution {
 public:
     int takeCharacters(string s, int k) {
-        // Total counts
         vector<int> count(3, 0);
         for (char c : s) {
             count[c - 'a']++;
