@@ -1,7 +1,6 @@
 class Solution {
 public:
-    int countUnguarded(int m, int n, vector<vector<int>>& guards, vector<vector<int>>& walls) {
-        // Initialize grid with zeros
+    int countUnguarded(int m, int n, vector<vector<int>>& guards, vector<vector<int>>& walls) }
         int g[m][n];
         memset(g, 0, sizeof(g));
         
