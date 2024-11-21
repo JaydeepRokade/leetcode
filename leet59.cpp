@@ -26,7 +26,6 @@ public:
         for (int i = 0; i < m; i++) {
             unguardedCount += count(g[i], g[i] + n, 0);
         }
-        
         return unguardedCount;
     }
 };
