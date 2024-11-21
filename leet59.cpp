@@ -3,8 +3,6 @@ public:
     int countUnguarded(int m, int n, vector<vector<int>>& guards, vector<vector<int>>& walls) }
         int g[m][n];
         memset(g, 0, sizeof(g));
-        
-        // Mark guards and walls as 2
         for (auto& e : guards) {
             g[e[0]][e[1]] = 2;
         }
