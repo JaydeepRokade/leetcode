@@ -14,8 +14,6 @@ public:
             for (int k = 0; k < 4; ++k) {
                 int x = e[0], y = e[1];
                 int dx = dirs[k], dy = dirs[k + 1];
-                
-                // Check cells in current direction until hitting boundary or obstacle
                 while (x + dx >= 0 && x + dx < m && y + dy >= 0 && y + dy < n && g[x + dx][y + dy] < 2) {
                     x += dx;
                     y += dy;
