@@ -10,8 +10,6 @@ public:
             g[e[0]][e[1]] = 2;
         }
         int dirs[5] = {-1, 0, 1, 0, -1};
-        
-        // Process each guard's line of sight
         for (auto& e : guards) {
             for (int k = 0; k < 4; ++k) {
                 int x = e[0], y = e[1];
