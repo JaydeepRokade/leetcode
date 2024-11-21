@@ -9,8 +9,6 @@ public:
         for (auto& e : walls) {
             g[e[0]][e[1]] = 2;
         }
-        
-        // Directions: up, right, down, left
         int dirs[5] = {-1, 0, 1, 0, -1};
         
         // Process each guard's line of sight
