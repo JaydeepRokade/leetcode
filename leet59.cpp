@@ -21,8 +21,7 @@ public:
                 }
             }
         }
-        
-        // Count unguarded cells (cells with value 0)
+     
         int unguardedCount = 0;
         for (int i = 0; i < m; i++) {
             unguardedCount += count(g[i], g[i] + n, 0);
