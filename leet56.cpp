@@ -11,7 +11,6 @@ public:
             }
             patFreq[pattern]++;
         }
-        
         int maxFreq = 0;
         for (const auto& pair : patFreq) {
             maxFreq = max(maxFreq, pair.second);
