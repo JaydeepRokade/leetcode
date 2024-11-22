@@ -2,7 +2,6 @@ class Solution {
 public:
     int maxEqualRowsAfterFlips(vector<vector<int>>& mat) {
         unordered_map<string, int> patFreq;
-        
         for (const auto& row : mat) {
             string pattern;
             if (row[0] == 0) {
