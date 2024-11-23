@@ -20,8 +20,7 @@ public:
             for (int j = 0; j < n; j++) {
                 rotatedBox[j][m - 1 - i] = box[i][j];
             }
-        }
-        
+        } 
         return rotatedBox;
     }
 };
