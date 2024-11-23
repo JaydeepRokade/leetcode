@@ -3,7 +3,6 @@ public:
     vector<vector<char>> rotateTheBox(vector<vector<char>>& box) {
         int m = box.size();
         int n = box[0].size();
-        
         for (auto& row : box) {
             int dropPos = n - 1;
             
