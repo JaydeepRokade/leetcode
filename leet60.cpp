@@ -5,7 +5,6 @@ public:
         int n = box[0].size();
         for (auto& row : box) {
             int dropPos = n - 1;
-            
             for (int currPos = n - 1; currPos >= 0; currPos--) {
                 if (row[currPos] == '*') {
                     dropPos = currPos - 1;
