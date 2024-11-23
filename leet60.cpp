@@ -14,8 +14,7 @@ public:
                     dropPos--;
                 }
             }
-        }
-        vector<vector<char>> rotatedBox(n, vector<char>(m));
+        }   vector<vector<char>> rotatedBox(n, vector<char>(m));
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
                 rotatedBox[j][m - 1 - i] = box[i][j];
