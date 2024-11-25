@@ -18,7 +18,6 @@ public:
         viz.reserve(720);
         queue<info> q;
         q.emplace(start, pos0);
-       
         for (int move= 0; !q.empty();  move++) {
             int qz = q.size();
             for (int i = 0; i < qz; i++) {
