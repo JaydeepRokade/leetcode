@@ -27,8 +27,7 @@ public:
                         return move;
                 for (char p : adj[p0]) {
                     string s = t;
-                    swap(s[p0], s[p]);
-                    
+                    swap(s[p0], s[p]); 
                     if (viz.count(s))
                         continue;
                     q.emplace(s, p);
