@@ -22,7 +22,6 @@ public:
             int qz = q.size();
             for (int i = 0; i < qz; i++) {
                 auto [t, p0] = q.front();
-            //    cout<<t<<" p0="<<int(p0)<<endl;
                 q.pop();
                 if (t == target)
                         return move;
