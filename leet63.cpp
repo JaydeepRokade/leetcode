@@ -38,7 +38,6 @@ public:
         return -1;
     }
 };
-
 auto init = []()
 { 
     ios::sync_with_stdio(0);
