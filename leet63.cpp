@@ -15,7 +15,6 @@ public:
             }
         if (start == target)
             return 0;
-
         unordered_set<string> viz;
         viz.reserve(720);
         queue<info> q;
