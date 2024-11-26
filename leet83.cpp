@@ -5,8 +5,7 @@ class Solution {
         int sum = accumulate(arr.begin(),arr.end(),0);
         int ans = INT_MIN;
         int currentsum = 0;
-        for(int i = 0; i<n; i++)
-        {
+        for(int i = 0; i<n; i++) {
             currentsum += arr[i];
             ans = max(ans, currentsum);
             if(currentsum<0) currentsum = 0;
