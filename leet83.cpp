@@ -23,8 +23,7 @@ class Solution {
                 
             }
             frontsum += arr[i];
-            frontmax = max(frontmax,frontsum);
-            
+            frontmax = max(frontmax,frontsum);  
         }
         return ans;
     }
