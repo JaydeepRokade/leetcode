@@ -1,13 +1,10 @@
 class Solution {
   public:
     int circularSubarraySum(vector<int> &arr) {
-
           int n = arr.size();
         int sum = accumulate(arr.begin(),arr.end(),0);
         int ans = INT_MIN;
         int currentsum = 0;
-
-        
         for(int i = 0; i<n; i++)
         {
             currentsum += arr[i];
