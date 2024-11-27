@@ -13,7 +13,6 @@ public:
         for (int i = 0; i < n; ++i) {
             distances[i] = n - 1 - i;
         }
-        
         vector<vector<int>> graph(n);
         for (int i = 0; i + 1 < n; ++i) {
             graph[i + 1].push_back(i);
