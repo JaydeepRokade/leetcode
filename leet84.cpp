@@ -19,7 +19,6 @@ public:
         }
         vector<int> answer(queries.size());
         int queryIdx = 0;
-        
         for (const auto& query : queries) {
             int source = query[0];
             int target = query[1];
