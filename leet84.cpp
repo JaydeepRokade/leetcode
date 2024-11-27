@@ -17,7 +17,6 @@ public:
         for (int i = 0; i + 1 < n; ++i) {
             graph[i + 1].push_back(i);
         }
-        
         vector<int> answer(queries.size());
         int queryIdx = 0;
         
