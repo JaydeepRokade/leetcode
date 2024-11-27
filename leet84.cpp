@@ -25,7 +25,6 @@ public:
             graph[target].push_back(source);
             distances[source] = min(distances[source], distances[target] + 1);
             updateDistances(graph, source, distances);
-            
             answer[queryIdx++] = distances[0];
         }
         
