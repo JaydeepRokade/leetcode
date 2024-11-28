@@ -7,7 +7,6 @@ public:
         distance[0][0] = 0;
         dq.push_front({0, 0});
         vector<pair<int, int>> directions = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
-
         while (!dq.empty()) {
             auto [x, y] = dq.front();
             dq.pop_front();
