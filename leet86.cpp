@@ -21,8 +21,6 @@ public:
             for (int a = 0; a < 4; a++) {
                 int r = i + d[a], s = j + d[a + 1];
                 if (isOutside(r, s, n, m)) continue;
-
-                // minimum time to reach (r, s)
                 int w=((grid[r][s]-t)&1)?0:1;
                 int nextTime = max(t+1, grid[r][s]+w); 
                 if (nextTime < time[r][s]) {
