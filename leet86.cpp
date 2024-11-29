@@ -28,11 +28,9 @@ public:
                 }
             }
         }
-        return -1; // never reach
+        return -1;
     }
 };
-
-
 auto init = []() {
     ios::sync_with_stdio(0);
     cin.tie(0);
