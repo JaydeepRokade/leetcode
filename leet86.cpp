@@ -24,9 +24,7 @@ public:
 
                 // minimum time to reach (r, s)
                 int w=((grid[r][s]-t)&1)?0:1;
-                int nextTime = max(t+1, grid[r][s]+w); // backward if neccessary
-
-                // update if this path having quicker time
+                int nextTime = max(t+1, grid[r][s]+w); 
                 if (nextTime < time[r][s]) {
                     time[r][s] = nextTime;
                     pq.emplace(nextTime, r, s);
