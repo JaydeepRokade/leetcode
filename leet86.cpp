@@ -18,8 +18,6 @@ public:
       
             if (i == n - 1 && j == m - 1)
                 return t;
-
-            // Traverse all four directions
             for (int a = 0; a < 4; a++) {
                 int r = i + d[a], s = j + d[a + 1];
                 if (isOutside(r, s, n, m)) continue;
