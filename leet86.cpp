@@ -6,7 +6,7 @@ public:
         return i < 0 || i >= n || j < 0 || j >= m;
     }
     int minimumTime(vector<vector<int>>& grid) {
-        if (grid[1][0]>1 && grid[0][1]>1)  return -1;// edge case
+        if (grid[1][0]>1 && grid[0][1]>1)  return -1;
     
         short n = grid.size(), m = grid[0].size();
         vector<vector<int>> time(n, vector<int>(m, INT_MAX));
