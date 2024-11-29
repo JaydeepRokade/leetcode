@@ -15,7 +15,6 @@ public:
         while (!pq.empty()) {
             auto [t, i, j] = pq.top();
             pq.pop();
-      
             if (i == n - 1 && j == m - 1)
                 return t;
             for (int a = 0; a < 4; a++) {
@@ -29,7 +28,6 @@ public:
                 }
             }
         }
-
         return -1; // never reach
     }
 };
