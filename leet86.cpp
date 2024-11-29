@@ -15,8 +15,7 @@ public:
         while (!pq.empty()) {
             auto [t, i, j] = pq.top();
             pq.pop();
-        //    cout<<" t="<<int(t)<<" i="<<int(i)<<" j="<<int(j)<<endl;
-            // reach the destination
+      
             if (i == n - 1 && j == m - 1)
                 return t;
 
