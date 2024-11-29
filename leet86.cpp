@@ -5,7 +5,6 @@ public:
     inline static bool isOutside(short i, short j, short n, short m) {
         return i < 0 || i >= n || j < 0 || j >= m;
     }
-
     int minimumTime(vector<vector<int>>& grid) {
         if (grid[1][0]>1 && grid[0][1]>1)  return -1;// edge case
     
