@@ -11,8 +11,6 @@ public:
         short n = grid.size(), m = grid[0].size();
         vector<vector<int>> time(n, vector<int>(m, INT_MAX));
         priority_queue<info, vector<info>, greater<info>> pq;
-
-        // Start at (0, 0) with time=0 
         pq.emplace(0, 0, 0);
         time[0][0] = 0;
         while (!pq.empty()) {
