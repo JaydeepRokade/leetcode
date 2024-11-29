@@ -1,4 +1,4 @@
-using info = tuple<int, short, short>; // (time, i, j)
+using info = tuple<int, short, short>; 
 const static int d[5] = {0, 1, 0, -1, 0};
 class Solution {
 public:
