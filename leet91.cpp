@@ -8,7 +8,6 @@ public:
                 targetIdx++;
             }
         }
-
         return targetIdx == targetLen;
     }
 };
