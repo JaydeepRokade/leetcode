@@ -7,7 +7,6 @@ public:
             if (ops > maxOperations) return false;
         }
         return true;
-    }
     
     int minimumSize(vector<int>& nums, int maxOperations) {
         int left = 1, right = *max_element(nums.begin(), nums.end());
