@@ -11,7 +11,6 @@ public:
     int minimumSize(vector<int>& nums, int maxOperations) {
         int left = 1, right = *max_element(nums.begin(), nums.end());
         int res = right;
-        
         while (left < right) {
             int mid = left + (right - left) / 2;
             if (canDivide(nums, mid, maxOperations)) {
