@@ -2,10 +2,6 @@ class Solution {
   public:
     vector<vector<int>> insertInterval(vector<vector<int>> &intervals,
                                        vector<int> &newInterval) {
-        // code here
-
-
-        // add the new interval and sort the array of intervals acc to start.
         intervals.push_back({newInterval[0], newInterval[1]});
         sort(intervals.begin(), intervals.end());
         
