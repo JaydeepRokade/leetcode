@@ -4,8 +4,6 @@ class Solution {
                                        vector<int> &newInterval) {
         intervals.push_back({newInterval[0], newInterval[1]});
         sort(intervals.begin(), intervals.end());
-        
-        // now apply the logic of merging overlapping intervals
         int n = intervals.size();
         int prev = 0;
         for(int i=1 ; i<n ; i++) {
