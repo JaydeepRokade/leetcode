@@ -6,6 +6,7 @@ private:
             adj[it[1]].push_back(it[0]);
         }
     }
+
     void get(pair<int, int>& p, vector<vector<int>>& adj, int node, int dis, vector<int>& vis){
         int d = p.second;
         vis[node] = 1;
@@ -19,6 +20,7 @@ private:
             }
         }
     }
+
 public:
     int minimumDiameterAfterMerge(vector<vector<int>>& edges1, vector<vector<int>>& edges2) {
         int n = edges1.size()+1;
