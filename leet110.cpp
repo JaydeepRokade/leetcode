@@ -6,8 +6,7 @@ private:
             adj[it[1]].push_back(it[0]);
         }
     }
-
-    void get(pair<int, int>& p, vector<vector<int>>& adj, int node, int dis, vector<int>& vis){
+ void get(pair<int, int>& p, vector<vector<int>>& adj, int node, int dis, vector<int>& vis){
         int d = p.second;
         vis[node] = 1;
         if(dis>d){
