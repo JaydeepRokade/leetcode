@@ -19,7 +19,6 @@ private:
             }
         }
     }
-
 public:
     int minimumDiameterAfterMerge(vector<vector<int>>& edges1, vector<vector<int>>& edges2) {
         int n = edges1.size()+1;
