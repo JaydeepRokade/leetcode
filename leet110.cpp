@@ -51,7 +51,6 @@ public:
         int d2 = p2.second;
         if(edges1.empty()) d1 = 0;
         if(edges2.empty()) d2 = 0;
-
         return max({d1, d2, (d1 + 1) / 2 + (d2 + 1) / 2 + 1});
     }
 };
