@@ -37,9 +37,7 @@ public:
         vis = vector<int>(n, 0);
         pair<int, int> p2 = {-1, INT_MIN};
         get(p2, adj1, p1.first, 0, vis);
-
         int d1 = p2.second;
-
         //now for the other tree
         p1 = {-1, INT_MIN};
         vis = vector<int>(m, 0);
@@ -47,7 +45,6 @@ public:
         p2 = {-1, INT_MIN};
         vis = vector<int>(m, 0);
         get(p2, adj2, p1.first, 0, vis);
-
         int d2 = p2.second;
         if(edges1.empty()) d1 = 0;
         if(edges2.empty()) d2 = 0;
