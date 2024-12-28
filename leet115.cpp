@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> maxSumOfThreeSubarrays(vector<int>& nums, int k) {
         int n = nums.size();
-        vector<int> sums(n - k + 1, 0); // Stores sums of all subarrays of size k
+        vector<int> sums(n - k + 1, 0); 
         vector<int> left(n - k + 1, 0); // Best left subarray indices
         vector<int> right(n - k + 1, 0); // Best right subarray indices
         
