@@ -4,7 +4,7 @@ public:
         int n = nums.size();
         vector<int> sums(n - k + 1, 0); 
         vector<int> left(n - k + 1, 0); 
-        vector<int> right(n - k + 1, 0); // Best right subarray indices
+        vector<int> right(n - k + 1, 0); 
         
         int sum = 0;
         for (int i = 0; i < nums.size(); i++) {
