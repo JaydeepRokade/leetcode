@@ -6,7 +6,6 @@ public:
         vector<int> left(n - k + 1, 0); // Best left subarray indices
         vector<int> right(n - k + 1, 0); // Best right subarray indices
         
-        // Step 1: Calculate sums of all subarrays of size k
         int sum = 0;
         for (int i = 0; i < nums.size(); i++) {
             sum += nums[i];
