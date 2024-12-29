@@ -5,7 +5,7 @@ public:
     int freq[26][1000] = {0};
 
     int f(int i, int j, const vector<string>& words, const string& target) {
-        if (j==0) return 1; // Base case
+        if (j==0) return 1; 
         if (i<0 || i<j) return 0; // Not enough characters to form target
         if (dp[i][j] != -1) return dp[i][j];
 
