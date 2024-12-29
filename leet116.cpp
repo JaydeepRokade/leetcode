@@ -11,7 +11,6 @@ public:
 
         long long cnt = 0;
 
-        // Skip the current
         cnt+=f(i-1, j, words, target);
 
         // take the current if characters match
