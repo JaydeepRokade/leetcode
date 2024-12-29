@@ -6,7 +6,7 @@ public:
 
     int f(int i, int j, const vector<string>& words, const string& target) {
         if (j==0) return 1; 
-        if (i<0 || i<j) return 0; // Not enough characters to form target
+        if (i<0 || i<j) return 0;
         if (dp[i][j] != -1) return dp[i][j];
 
         long long cnt = 0;
