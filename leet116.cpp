@@ -13,7 +13,6 @@ public:
 
         cnt+=f(i-1, j, words, target);
 
-        // take the current if characters match
         long long fc=freq[target[j-1]-'a'][i-1];
         if (fc > 0) 
             cnt+= f(i-1, j-1, words, target)*fc;
