@@ -30,8 +30,6 @@ public:
                 freq[w[i]-'a'][i]++;
             
         }
-
-        // Initialize DP table
         memset(dp, -1, sizeof(dp));
 
         // Call the recursive function
