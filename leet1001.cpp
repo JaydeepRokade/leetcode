@@ -5,7 +5,6 @@ public:
 
         sort(s.begin(), s.end());
         int oddCount = 0;
-
         for (int i = 0; i < s.length(); ) {
             char current = s[i];
             int count = 0;
