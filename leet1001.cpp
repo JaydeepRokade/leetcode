@@ -13,7 +13,6 @@ public:
             }
             if (count % 2 != 0) oddCount++;
         }
-
         return oddCount <= k;
     }
 };
