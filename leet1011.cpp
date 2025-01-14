@@ -5,9 +5,7 @@ public:
         vector<int> freq(n + 1, 0);
         vector<int> ans;
         int common = 0;
-
-        
-        for (int i = 0; i < n; i++) {
+         for (int i = 0; i < n; i++) {
             if (++freq[A[i]] == 2) common++;
             if (++freq[B[i]] == 2) common++;
             ans.push_back(common);
