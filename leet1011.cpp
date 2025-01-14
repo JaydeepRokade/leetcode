@@ -6,8 +6,6 @@ public:
         vector<int> ans;
         int common = 0;
 
-
-
         
         for (int i = 0; i < n; i++) {
             if (++freq[A[i]] == 2) common++;
