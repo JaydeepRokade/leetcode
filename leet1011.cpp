@@ -13,6 +13,10 @@ public:
             if (++freq[A[i]] == 2) common++;
             if (++freq[B[i]] == 2) common++;
             ans.push_back(common);
+
+
+
+            
         }
         return ans;
     }
