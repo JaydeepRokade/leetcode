@@ -13,6 +13,7 @@ public:
                 res ^= 1 << i;
                 ++a;
             }
+            
         }
         
         return res;
