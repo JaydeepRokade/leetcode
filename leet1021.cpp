@@ -14,7 +14,6 @@ public:
                 ++a;
             }  
         }
-        
         return res;
     }
 };
