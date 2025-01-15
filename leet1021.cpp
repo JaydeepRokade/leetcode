@@ -12,6 +12,7 @@ public:
             if (a < b && !((1 << i) & num1)) {
                 res ^= 1 << i;
                 ++a;
+                
             }
             
         }
