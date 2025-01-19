@@ -13,7 +13,6 @@ class Solution {
             return head;
         }
 
-        
         temp.next = head;
         Node newTail = head;
         for(int i = 1; i < k; i++){
