@@ -7,7 +7,6 @@ class Solution {
             size ++;
             temp = temp.next;
         }
-        
         k = k%size;
         if(k == 0){
             return head;
