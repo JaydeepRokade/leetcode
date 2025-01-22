@@ -2,8 +2,7 @@ class Solution {
 public:
     int findKthNumber(int n, int k) {
         int currentPrefix = 1;
-        --k;  // Decrement k to handle zero-based indexing
-        
+        --k;  
         while (k > 0) {
             int count = countNumbersWithPrefix(currentPrefix, n);
             if (k >= count) {
