@@ -9,7 +9,7 @@ public:
                 ++currentPrefix;  
                 k -= count;
             } else {
-                currentPrefix *= 10;  // Go deeper in the current prefix
+                currentPrefix *= 10;  
                 --k;
             }
         }
