@@ -6,7 +6,7 @@ public:
         while (k > 0) {
             int count = countNumbersWithPrefix(currentPrefix, n);
             if (k >= count) {
-                ++currentPrefix;  // Move to the next prefix
+                ++currentPrefix;  // Move to x
                 k -= count;
             } else {
                 currentPrefix *= 10;  // Go deeper in the current prefix
