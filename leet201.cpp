@@ -8,6 +8,7 @@ public:
                 if (grid[i][j]){
                     cnt++;
                     row[i]++;
+                    
                     col[j]++;
                 }
             }
