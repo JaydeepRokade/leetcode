@@ -7,6 +7,7 @@ public:
             for(int j=0; j<n; j++){
                 if (grid[i][j]){
                     cnt++;
+                    
                     row[i]++;
                     
                     col[j]++;
