@@ -12,7 +12,6 @@ public:
                 maxFish = max(maxFish, dfs(grid, i, j, m, n));
             }
         }
-
         return maxFish;
     }
 
