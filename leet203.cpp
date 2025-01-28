@@ -14,7 +14,6 @@ public:
         }
         return maxFish;
     }
-
 private:
     int dfs(vector<vector<int>>& grid, int i, int j, int m, int n){        
         int fish = 0;
