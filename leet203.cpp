@@ -18,7 +18,6 @@ private:
     int dfs(vector<vector<int>>& grid, int i, int j, int m, int n){        
         int fish = 0;
         if(grid[i][j] == 0) return fish;   
-             
         fish += grid[i][j];
         
         grid[i][j] = -1; // Visited
