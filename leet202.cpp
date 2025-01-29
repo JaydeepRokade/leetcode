@@ -30,7 +30,6 @@ public:
             if (find(u) == find(v)) return edge; // Cycle detected!
             join(u, v); // Merge sets
         }
-        
         return {}; // Unreachable for valid inputs
     }
 };
