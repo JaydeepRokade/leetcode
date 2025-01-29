@@ -6,7 +6,6 @@ class Solution {
             parent[i] = find(parent[i]); // Path compression
         return parent[i];
     }
-
     void join(int u, int v) {
         int rootU = find(u), rootV = find(v);
         if (rootU != rootV) {
