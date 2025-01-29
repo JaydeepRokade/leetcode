@@ -23,7 +23,6 @@ public:
         int n = edges.size();
         parent.resize(n + 1);
         rank.resize(n + 1, 0);
-        
         // Initialize each node as its own parent
         for (int i = 1; i <= n; i++) parent[i] = i;
 
