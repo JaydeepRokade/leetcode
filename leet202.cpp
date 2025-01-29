@@ -1,7 +1,6 @@
 class Solution {
     vector<int> parent;
     vector<int> rank;
-
     int find(int i) {
         if (parent[i] != i)
             parent[i] = find(parent[i]); // Path compression
