@@ -13,9 +13,7 @@ class Solution {
                 return false;
         }
         return true;
-    }
-
-    // BFS to compute max depth (groups) for a component
+    }ups) for a component
     int maxGroupsInComponent(const vector<int>& component) {
         int maxDepth = 0;
         for (int start : component) {
