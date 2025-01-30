@@ -14,6 +14,7 @@ class Solution {
         }
         return true;
     }ups) for a component
+
     int maxGroupsInComponent(const vector<int>& component) {
         int maxDepth = 0;
         for (int start : component) {
