@@ -1,4 +1,5 @@
 class Solution {
+
 public:
     int maxAscendingSum(vector<int>& nums) {
         int curr = nums[0], ans = nums[0];
