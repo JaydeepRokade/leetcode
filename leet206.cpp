@@ -8,6 +8,7 @@ public:
         for (int i = 1; i < nums.size(); ++i) {
             curr = nums[i] > nums[i - 1] ? curr + nums[i] : nums[i];
             ans = max(ans, curr);
+            
         }
         return ans;
     }
