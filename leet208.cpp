@@ -1,7 +1,7 @@
 class Solution {
 public:
     int maximumSum(vector<int>& nums) {
-        int mp[82];  // Stores max num 
+        int mp[82];  
         memset(mp, -1, sizeof(mp));
         int ans = -1;
 
