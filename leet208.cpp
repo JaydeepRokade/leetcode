@@ -8,10 +8,8 @@ public:
         for (int num : nums) {
             int sumDigits = 0, temp = num;
             while (temp) sumDigits += temp % 10, temp /= 10;
-
             if (mp[sumDigits] != -1)
                 ans = max(ans, num + mp[sumDigits]);
-
             mp[sumDigits] = max(mp[sumDigits], num);
         }
 
