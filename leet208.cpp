@@ -12,7 +12,6 @@ public:
                 ans = max(ans, num + mp[sumDigits]);
             mp[sumDigits] = max(mp[sumDigits], num);
         }
-
         return ans;
     }
 };
