@@ -17,8 +17,7 @@ public:
         int total = merged.size();
 
         if (total % 2 == 1) {
-            // If the total number of elements is odd, return the middle element as the median.
-            return static_cast<double>(merged[total / 2]);
+          
         } else {
             // If the total number of elements is even, calculate the average of the two middle elements as the median.
             int middle1 = merged[total / 2 - 1];
