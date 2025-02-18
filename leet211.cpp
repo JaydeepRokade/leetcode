@@ -14,7 +14,6 @@ public:
 
         sort(merged.begin(), merged.end());
 
-        // Calculate the total number of elements in the merged array.
         int total = merged.size();
 
         if (total % 2 == 1) {
