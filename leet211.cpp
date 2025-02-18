@@ -12,7 +12,6 @@ public:
             merged.push_back(nums2[i]);
         }
 
-        // Sort the merged array.
         sort(merged.begin(), merged.end());
 
         // Calculate the total number of elements in the merged array.
