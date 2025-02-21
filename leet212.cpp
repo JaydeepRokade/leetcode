@@ -1,7 +1,4 @@
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
+  int val;
 
 bitset<1048576> hasX = 0; // 2097152=2**21
 class FindElements {
