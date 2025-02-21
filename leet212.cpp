@@ -18,7 +18,3 @@ public:
 
     bool find(int target) { return hasX[target]; }
 };
-
-/**
- * Your FindElements object will be instantiated and called as such:
- *
