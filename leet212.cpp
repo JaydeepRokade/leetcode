@@ -2,9 +2,6 @@
  * Definition for a binary tree node.
  * struct TreeNode {
  *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
 
 bitset<1048576> hasX = 0; // 2097152=2**21
 class FindElements {
