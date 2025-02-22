@@ -8,7 +8,6 @@ public:
         helper(node, 0);
         return node->left;
     }
-
     void helper(TreeNode* parent, int lvl) {
         while (idx < s.length() && lvl == level) {
             int num = 0;
