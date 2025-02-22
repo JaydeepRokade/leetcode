@@ -2,7 +2,6 @@ class Solution {
 public:
     string s;
     int idx = 0, level = 0;
-
     TreeNode* recoverFromPreorder(string traversal) {
         s = traversal;
         TreeNode* node = new TreeNode(-1);
