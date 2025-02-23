@@ -1,4 +1,5 @@
 class Solution {
+
 public:
     TreeNode* constructFromPrePost(vector<int>& preorder, vector<int>& postorder) {
         stack<TreeNode*> nodes;
