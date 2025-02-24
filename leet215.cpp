@@ -6,6 +6,7 @@ class Solution {
 
 public:
     static void dfs(int i, int p) {
+        
         parent[i]=p;
         for (int j : adj[i]) {
             if (j==p) continue;
