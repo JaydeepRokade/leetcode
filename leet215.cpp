@@ -1,6 +1,7 @@
 vector<int> adj[100000];
 int parent[100000], Bob[100000];
 
+
 class Solution {
 public:
     static void dfs(int i, int p) {
