@@ -5,7 +5,6 @@ class Solution {
             sum += num;
             if (sum > maxSum) maxSum = sum;
             if (sum < minSum) minSum = sum;
-            
         }
         return Math.abs(maxSum - minSum);
     }
