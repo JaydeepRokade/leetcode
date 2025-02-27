@@ -17,7 +17,7 @@ public:
             for (int j = 0; j < i; j++) {
                 int x = arr[i] - arr[j]; 
                 if (x < arr[j] && index_map.find(x) != index_map.end()) {
-                    int k = index_map[x]; // Get the index of x
+                    int k = index_map[x]; 
                     int len = dp[k * n + j] + 1; // Get previous length + 1
                     dp[j * n + i] = max(3, len); // Minimum length of 3
                     max_len = max(max_len, dp[j * n + i]);
