@@ -5,7 +5,7 @@ class Solution {
 public:
     int lenLongestFibSubseq(vector<int>& arr) {
         int n = arr.size();
-        unordered_map<int, int> index_map; // Stores the index of each element
+        unordered_map<int, int> index_map; 
         unordered_map<int, int> dp; // Stores the Fibonacci-like subsequence length
         int max_len = 0;
 
