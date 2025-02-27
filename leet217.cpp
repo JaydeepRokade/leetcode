@@ -15,7 +15,7 @@ public:
 
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < i; j++) {
-                int x = arr[i] - arr[j]; // Required previous number in sequence
+                int x = arr[i] - arr[j]; 
                 if (x < arr[j] && index_map.find(x) != index_map.end()) {
                     int k = index_map[x]; // Get the index of x
                     int len = dp[k * n + j] + 1; // Get previous length + 1
