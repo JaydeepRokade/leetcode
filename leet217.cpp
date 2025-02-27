@@ -9,7 +9,6 @@ public:
         unordered_map<int, int> dp; 
         int max_len = 0;
 
-        // Store each element's index
         for (int i = 0; i < n; i++) {
             index_map[arr[i]] = i;
         }
