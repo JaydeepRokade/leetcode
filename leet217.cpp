@@ -22,7 +22,7 @@ public:
                     dp[j * n + i] = max(3, len);
                     max_len = max(max_len, dp[j * n + i]);
                 } else {
-                    dp[j * n + i] = 2; // Default sequence length
+                    dp[j * n + i] = 2;
                 }
             }
         }
