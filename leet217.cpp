@@ -26,7 +26,6 @@ public:
                 }
             }
         }
-
         return max_len >= 3 ? max_len : 0;
     }
 };
