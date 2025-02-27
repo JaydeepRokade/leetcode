@@ -1,0 +1,34 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+class Solution {
+public:
+    int lenLongestFibSubseq(vector<int>& arr) {
+        int n = arr.size();
+        unordered_map<int, int> index_map; // Stores the index of each element
+        unordered_map<int, int> dp; // Stores the Fibonacci-like subsequence length
+        int max_len = 0;
+
+        // Store each element's index
+        for (int i = 0; i < n; i++) {
+            index_map[arr[i]] = i;
+        }
+
+        // Iterate through all pairs (j, i) where j < i
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < i; j++) {
+                int x = arr[i] - arr[j]; // Required previous number in sequence
+                if (x < arr[j] && index_map.find(x) != index_map.end()) {
+                    int k = index_map[x]; // Get the index of x
+                    int len = dp[k * n + j] + 1; // Get previous length + 1
+                    dp[j * n + i] = max(3, len); // Minimum length of 3
+                    max_len = max(max_len, dp[j * n + i]);
+                } else {
+                    dp[j * n + i] = 2; // Default sequence length
+                }
+            }
+        }
+
+        return max_len >= 3 ? max_len : 0;
+    }
+};
