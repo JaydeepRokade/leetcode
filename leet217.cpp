@@ -13,7 +13,6 @@ public:
             index_map[arr[i]] = i;
         }
 
-        // Iterate through all pairs (j, i) where j < i
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < i; j++) {
                 int x = arr[i] - arr[j]; // Required previous number in sequence
