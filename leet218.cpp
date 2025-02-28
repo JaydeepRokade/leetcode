@@ -31,7 +31,7 @@ public:
                 result.push_back(str1[i - 1]);
                 i--;
             } else {
-                // Otherwise, take character from str2
+                
                 result.push_back(str2[j - 1]);
                 j--;
             }
