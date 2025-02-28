@@ -22,7 +22,7 @@ public:
         
         while (i > 0 && j > 0) {
             if (str1[i - 1] == str2[j - 1]) {
-                // If the characters are the same, add it once
+             
                 result.push_back(str1[i - 1]);
                 i--;
                 j--;
