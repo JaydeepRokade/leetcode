@@ -37,7 +37,6 @@ public:
             }
         }
         
-        // Add remaining characters from str1 (if any)
         while (i > 0) {
             result.push_back(str1[i - 1]);
             i--;
