@@ -47,7 +47,6 @@ public:
             j--;
         }
         
-        // Reverse the result to get the final supersequence
         reverse(result.begin(), result.end());
         
         return result;
