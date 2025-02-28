@@ -17,8 +17,6 @@ public:
             }
         }
         
-        // Step 2: Construct the shortest common supersequence
-        // Start from the bottom right of the dp table
         int i = m, j = n;
         string result = "";
         
