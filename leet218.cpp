@@ -41,8 +41,7 @@ public:
             result.push_back(str1[i - 1]);
             i--;
         }
-        
-        // Add remaining characters from str2 (if any)
+       
         while (j > 0) {
             result.push_back(str2[j - 1]);
             j--;
