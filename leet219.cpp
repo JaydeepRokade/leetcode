@@ -20,7 +20,6 @@ public:
         if (nums[n - 1] != 0) {
             newNums[count++] = nums[n - 1];
         }
-
         return newNums;
     }
 };
