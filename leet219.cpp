@@ -12,7 +12,7 @@ public:
                     i++; 
                 } else {
                     newNums[count] = nums[i]; 
-                }
+     }
                 count++;
             }
         }
