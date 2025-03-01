@@ -4,7 +4,6 @@ public:
         int n = nums.size();
         vector<int> newNums(n, 0); 
         int count = 0;
-
         for (int i = 0; i < n - 1; i++) {
             if (nums[i] != 0) {
                 if (nums[i] == nums[i + 1]) {
