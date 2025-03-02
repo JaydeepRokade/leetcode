@@ -10,7 +10,7 @@ public:
             int id2 = nums2[j][0], val2 = nums2[j][1];
             
             if (id1 < id2) {
-                // Id1 is smaller, add it to result
+            
                 result.push_back({id1, val1});
                 i++;
             } else if (id2 < id1) {
