@@ -4,8 +4,7 @@ public:
       
         int i = 0, j = 0;
         vector<vector<int>> result;
-        
-        // Traverse both arrays with two pointers
+       
         while (i < nums1.size() && j < nums2.size()) {
             int id1 = nums1[i][0], val1 = nums1[i][1];
             int id2 = nums2[j][0], val2 = nums2[j][1];
