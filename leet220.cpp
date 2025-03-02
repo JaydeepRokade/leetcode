@@ -18,7 +18,7 @@ public:
                 result.push_back({id2, val2});
                 j++;
             } else {
-                // Ids are equal, sum the values
+             
                 result.push_back({id1, val1 + val2});
                 i++;
                 j++;
