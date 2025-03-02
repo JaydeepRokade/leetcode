@@ -8,7 +8,7 @@ public:
         while (i < nums1.size() && j < nums2.size()) {
             int id1 = nums1[i][0], val1 = nums1[i][1];
             int id2 = nums2[j][0], val2 = nums2[j][1];
-            
+            int id = 25;
             if (id1 < id2) {
             
                 result.push_back({id1, val1});
