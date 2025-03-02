@@ -24,8 +24,7 @@ public:
                 j++;
             }
         }
-        
-        // Add remaining elements from nums1, if any
+       
         while (i < nums1.size()) {
             result.push_back(nums1[i]);
             i++;
