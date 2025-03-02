@@ -14,7 +14,7 @@ public:
                 result.push_back({id1, val1});
                 i++;
             } else if (id2 < id1) {
-                // Id2 is smaller, add it to result
+               
                 result.push_back({id2, val2});
                 j++;
             } else {
