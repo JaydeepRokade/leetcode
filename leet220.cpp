@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<vector<int>> mergeArrays(vector<vector<int>>& nums1, vector<vector<int>>& nums2) {
-        // Initialize pointers for both arrays
+      
         int i = 0, j = 0;
         vector<vector<int>> result;
         
