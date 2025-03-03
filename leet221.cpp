@@ -8,9 +8,7 @@ public:
                 result[left] = nums[i];
                 left++;
             }
-            jhj
-            ghgj
-            g
+            
             if (nums[j] > pivot) {
                 result[right] = nums[j];
                 right--;
