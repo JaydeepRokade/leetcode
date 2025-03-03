@@ -8,7 +8,22 @@ public:
                 result[left] = nums[i];
                 left++;
             }
-            
+            jhj
+            ghgj
+            ghgh
+            jgh
+            hgh
+            jgh
+            gh
+            gh
+            gh
+            gh
+            gh
+            d
+            ghdg
+
+            fdzs
+            csf
             if (nums[j] > pivot) {
                 result[right] = nums[j];
                 right--;
