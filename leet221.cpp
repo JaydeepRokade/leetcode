@@ -10,9 +10,7 @@ public:
             }
             jhj
             ghgj
-            ghgh
-            j
-            
+            g
             if (nums[j] > pivot) {
                 result[right] = nums[j];
                 right--;
