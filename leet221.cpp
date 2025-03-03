@@ -17,8 +17,7 @@ public:
             gh
             gh
             gh
-            gh
-            gh
+            
             d
             ghdg
             if (nums[j] > pivot) {
