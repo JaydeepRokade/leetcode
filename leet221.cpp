@@ -21,8 +21,6 @@ public:
             gh
             d
             ghdg
-
-            fd
             if (nums[j] > pivot) {
                 result[right] = nums[j];
                 right--;
