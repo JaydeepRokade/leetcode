@@ -4,11 +4,5 @@ public:
         
         return 1 + 4LL * n * (n - 1) / 2; 
         
-            as
-                sd
-
-        d
-                gd 
-        
     }
 };
