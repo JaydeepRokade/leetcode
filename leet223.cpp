@@ -4,7 +4,48 @@ public:
         
         return 1 + 4LL * n * (n - 1) / 2; 
         
+            as
+                sd
+        f
+                sd
+        sf
+                f
+        d
+                sf
+        gdda
+                d
+        fs
+                g
+        ssf
+                d
+        g
+                ds
+        d
+                fgd
+        sdd
+                g
+        dgd
+                d
 
+        fgd
+
+                d
+        g
+                dd
+        d
+                d
+        dg
+                dg
+        g
+                dd
+        d
+                gd
+        d
+                g
+        d
+                gd
+        gdg
+                
         
     }
 };
