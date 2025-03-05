@@ -25,18 +25,6 @@ public:
                 d
 
         fgd
-
-                d
-        g
-                dd
-        d
-                d
-        dg
-                dg
-        g
-                dd
-        d
-                gd
         d
                 g
         d
