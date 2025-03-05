@@ -43,9 +43,7 @@ public:
         d
                 g
         d
-                gd
-        gdg
-                
+                gd 
         
     }
 };
