@@ -13,10 +13,7 @@ public:
         d
                 sf
         gdda
-                d
-        fs
-                g
-        ssf
+        
                 d
         g
                 ds
