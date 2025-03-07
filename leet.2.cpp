@@ -4,7 +4,7 @@ public:
         int midx = m - 1;
         int nidx = n - 1;
         int right = m + n - 1;
-//not an ptod its just a complex  problem problem i had like to add in stack for revision------.>>>>>>>>>>
+//not an ptod its just a complex  problem problem i had like to add in stack for revision------.>>>>>
         while (nidx >= 0) {
             if (midx >= 0 && nums1[midx] > nums2[nidx]) {
                 nums1[right] = nums1[midx];
