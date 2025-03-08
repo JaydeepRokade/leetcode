@@ -1,5 +1,6 @@
 class Solution {
 public:
+//hajajajsj
     bool canConstruct(string s, int k) {
         if (s.length() < k) return false;
         sort(s.begin(), s.end());
