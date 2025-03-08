@@ -6,7 +6,6 @@ public:
             if (i - k >= 0 && blocks[i - k] == 'B') black_count--;
             if (blocks[i] == 'B') black_count++;
             ans = min(ans, k - black_count);
-           
         }
         return ans;
     }
