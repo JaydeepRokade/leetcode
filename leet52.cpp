@@ -7,8 +7,6 @@ public:
             if(x%mid) stores++;
             if(stores>n) return 0;
 
-
-
             
         return stores<=n;
     }
