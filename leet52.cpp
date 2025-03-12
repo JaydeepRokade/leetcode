@@ -5,6 +5,7 @@ public:
         for(auto x:quantities){
             stores+=x/mid;
             if(x%mid) stores++;
+            //vdvd vds vdv
             if(stores>n) return 0;
         return stores<=n;
     }
