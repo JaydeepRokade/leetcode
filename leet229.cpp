@@ -9,6 +9,7 @@ public:
                 diff[left] += val;
                 diff[right + 1] -= val;
             }
+            
             int currVal = 0;
             for (int i = 0; i < n; i++) {
                 currVal += diff[i];
