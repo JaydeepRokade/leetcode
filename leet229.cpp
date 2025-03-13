@@ -7,6 +7,7 @@ public:
             for (int i = 0; i < k; i++) {
                 int left = queries[i][0], right = queries[i][1], val = queries[i][2];
                 diff[left] += val;
+                
                 diff[right + 1] -= val;
             }
             
