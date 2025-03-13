@@ -5,6 +5,7 @@ public:
         auto canMakeZeroArray = [&](int k) {
             vector<int> diff(n + 1, 0);
             for (int i = 0; i < k; i++) {
+                
                 int left = queries[i][0], right = queries[i][1], val = queries[i][2];
                 
                 diff[left] += val;
