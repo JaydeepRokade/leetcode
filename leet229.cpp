@@ -3,7 +3,7 @@ public:
     int minZeroArray(vector<int>& nums, vector<vector<int>>& queries) {
         int n = nums.size();
         auto canMakeZeroArray = [&](int k) {
-            
+            // jaydeogro ddvvkhsf ddfkhssfi  kdvvhdkvsa dvkdkdvk hdvkhk  kjjdieopdv lffhrpidvj jhcjg  fglblz sfswwy sfuu lgnlggl hssshv
             vector<int> diff(n + 1, 0);
             
             for (int i = 0; i < k; i++) {
