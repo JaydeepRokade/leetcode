@@ -2,7 +2,7 @@
 #include <algorithm>
 
 using namespace std;
-//akms;xa;l mxlam ;alxm
+//akms;
 class Solution {
 public:
     int longestNiceSubarray(vector<int>& nums) {
