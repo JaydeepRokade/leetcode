@@ -1,38 +1,21 @@
+#include <vector>
+using namespace std;
+
 class Solution {
 public:
-    bool isPossible(int n,vector<int>&quantities,int mid){
-        int stores=0;
-        for(auto x:quantities){
-            stores+=x/mid;
-            if(x%mid) stores++;
-            
-            if(stores>n) return 0;
-        return stores<=n;
-    }
-    int minimizedMaximum(int n, vector<int>& quantities) {
-        int maxi=0;
-        long long sum=0;
-        for(auto x:quantities){
-            sum+=x;
-            maxi=max(maxi,x);
-        }
-        int s=sum/n,e=maxi,ans=-1;
-        if(s==0) s=1;
-        while(s<=e){
-            int mid=s+(e-s)/2;
-            if(isPossible(n,quantities,mid)){
-                ans=mid;
-                e=mid-1;
-            }
-            else{
-                s=mid+1;
+    int minOperations(vector<int>& nums) {
+        int count = 0;
+        int n = nums.size();
+        
+        for (int i = 0; i < n - 2; i++) {
+            if (nums[i] == 0) {
+                nums[i] ^= 1;
+                nums[i + 1] ^= 1;
+                nums[i + 2] ^= 1;
+                count++;
             }
         }
-        return ans;
+        
+        return (nums[n - 2] == 1 && nums[n - 1] == 1) ? count : -1;
     }
 };
-
-
-for(int i =0;i<arr.length();i++){
-            if(arr[i]==key) return i;
-        } return -1;
