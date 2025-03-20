@@ -10,7 +10,7 @@ public:
             }
             return parent[node];
         };
-        //gdgf fhhd hdh gnd dgwsr6r htktg fgdjt csrye cb dhtjh v fhtejh vvgy
+        //gdgf fhhd hdh gnd dgwsr6r htktg fgdjt csrye cb dhtjh v fhtejh
         for (auto& edge : edges) {
             int source = edge[0], target = edge[1], weight = edge[2];
             int source_root = find_root(source);
