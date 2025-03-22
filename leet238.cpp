@@ -10,7 +10,7 @@ public:
             }
             return parent[x];
         };
-        //vldfsk sfgk sgloso fgkksal dfgpjsjj pfdgk ldglhl ;bldn
+        //vldfsk sfgk sgloso fgkksal dfgpjsjj pfdgk ldg
         auto unionSets = [&](int x, int y) {
             int rootX = find(x);
             int rootY = find(y);
