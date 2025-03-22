@@ -10,7 +10,7 @@ public:
             }
             return parent[x];
         };
-        //vldfsk sfg
+        
         auto unionSets = [&](int x, int y) {
             int rootX = find(x);
             int rootY = find(y);
