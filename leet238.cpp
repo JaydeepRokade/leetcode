@@ -10,7 +10,7 @@ public:
             }
             return parent[x];
         };
-        //dwdj shh sjvk skdv vvcv 
+        //dwdj shh sjv
         auto unionSets = [&](int x, int y) {
             int rootX = find(x);
             int rootY = find(y);
