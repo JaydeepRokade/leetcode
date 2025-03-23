@@ -15,7 +15,7 @@ public:
         }
         return currentPrefix;
     }
-//hash 
+//
 private:
     int countNumbersWithPrefix(int prefix, int n) {
         long long firstNumber = prefix, nextNumber = prefix + 1;
