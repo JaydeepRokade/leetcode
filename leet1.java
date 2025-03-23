@@ -15,7 +15,7 @@ public:
         }
         return currentPrefix;
     }
-//hash ahsj question qkv ke wide wjc jw uwi 2jdj  WiFi  seeks work environment didn't 
+//hash ahsj quen qkv ke wide wjc jw uwi 2jdj  WiFi  seeks work environment didt 
 private:
     int countNumbersWithPrefix(int prefix, int n) {
         long long firstNumber = prefix, nextNumber = prefix + 1;
