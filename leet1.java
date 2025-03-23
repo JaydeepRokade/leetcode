@@ -15,7 +15,7 @@ public:
         }
         return currentPrefix;
     }
-//hash ahsj jw uwi 2jdj  W
+//hash ahsj jw uwil
 private:
     int countNumbersWithPrefix(int prefix, int n) {
         long long firstNumber = prefix, nextNumber = prefix + 1;
