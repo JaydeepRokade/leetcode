@@ -2,7 +2,7 @@ class Solution {
 public:
     int countDays(int days, vector<vector<int>>& meetings) {
         sort(meetings.begin(), meetings.end());
-        //sxkskk jsnnslkk ks/kdlklld\
+        //sxkskk jsnns
         vector<vector<int>> mergedMeetings;
         for (const auto& meeting : meetings) {
             if (mergedMeetings.empty() || meeting[0] > mergedMeetings.back()[1]) {
