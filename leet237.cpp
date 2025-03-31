@@ -10,7 +10,6 @@ public:
                 mergedMeetings.back()[1] = max(mergedMeetings.back()[1], meeting[1]);
             }
         }
-
         int meetingDaysCount = 0;
         for (const auto& m : mergedMeetings) {
             meetingDaysCount += (m[1] - m[0] + 1);
