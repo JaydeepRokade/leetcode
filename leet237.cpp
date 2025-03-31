@@ -9,7 +9,7 @@ public:
             } else {
                 mergedMeetings.back()[1] = max(mergedMeetings.back()[1], meeting[1]);
             }
-            //safal saff; ;lva;l;l ;lba;;l ;lb;lbfb;ld;l;lfb;ldb;l bd;ba
+            //safal saff; ;lva;l;l ;lba;;l ;lb;lbfb;ld;l;lfb;ldb;l 
         }
         int meetingDaysCount = 0;
         for (const auto& m : mergedMeetings) {
