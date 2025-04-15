@@ -17,7 +17,7 @@ class Solution {
             newTail = newTail.next;
         }
 
-// DACA DV
+// DA
 
         Node newHead = newTail.next;
         newTail.next = null;
