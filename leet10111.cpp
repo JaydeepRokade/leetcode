@@ -17,7 +17,7 @@ class Solution {
             newTail = newTail.next;
         }
 
-// DACA DVD ffvr DV e dfv axe mi LTC ED
+// DACA DVD ffvr DV e dfv axe mi L
 
         Node newHead = newTail.next;
         newTail.next = null;
