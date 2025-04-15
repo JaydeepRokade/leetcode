@@ -17,7 +17,6 @@ class Solution {
             newTail = newTail.next;
         }
 
-// DA
 
         Node newHead = newTail.next;
         newTail.next = null;
