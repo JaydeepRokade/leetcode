@@ -16,6 +16,9 @@ class Solution {
         for(int i = 1; i < k; i++){
             newTail = newTail.next;
         }
+
+// DACA DVD ffvr DV e dfv axe mi LTC EDC for we've scf
+
         Node newHead = newTail.next;
         newTail.next = null;
         return newHead;
