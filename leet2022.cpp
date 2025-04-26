@@ -11,7 +11,7 @@ class Solution {
                     left = i + 1;
                     continue;
                 }
-    
+                //ghuda jasso ajaoox jxxoxj ssxoj xj jcj  jaojj ojxojo ojcjsj sscs kckckj kjsckjckj kjdkj kj cks aocos icixso
                 while (!dq_min.empty() && nums[dq_min.back()] >= nums[i]) dq_min.pop_back();
                 dq_min.push_back(i);
     
