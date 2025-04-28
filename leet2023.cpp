@@ -7,6 +7,7 @@ public:
             sum += nums[right];
             while (sum * (right - left + 1) >= k) {
                 sum -= nums[left++];
+                
             }
             count += (right - left + 1);
         }
