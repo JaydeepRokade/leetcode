@@ -3,6 +3,7 @@ public:
     using ll = long long;
     long long countSubarrays(vector<int>& nums, ll k) {
         ll count = 0, sum = 0, left = 0;
+        
         for (int right = 0; right < nums.size(); right++) {
             sum += nums[right];
             
