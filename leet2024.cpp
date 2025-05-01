@@ -14,7 +14,7 @@ public:
                 high = mid - 1;
             }
         }
-        //dslsl ldlc dmb lfklw jlvl ffzpvp kkdvkwl ;oos; lknvlns
+        //dslsl ldlc dmb lfklw jlvl ffzpvp kkdvkwl ;oos; lk
         return low;
     }
 
