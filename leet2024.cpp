@@ -14,7 +14,7 @@ public:
                 high = mid - 1;
             }
         }
-        //d
+        
         return low;
     }
 
