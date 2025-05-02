@@ -9,7 +9,7 @@ public:
             if (s[curr] == '.') {
                 continue;
             }
-            // jaydeep rokade jadjkv jlldll ldfl lal lallvlk lkllk ak
+            // jaydeep rokade jadjkv jlldll ldfl lal lallvlk lk
             int span = curr - prev - 1;
             if (prev > 0) 
                 res += s[prev];
