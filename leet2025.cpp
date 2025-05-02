@@ -9,7 +9,7 @@ public:
             if (s[curr] == '.') {
                 continue;
             }
-            // jaydeep roka
+            // j
             int span = curr - prev - 1;
             if (prev > 0) 
                 res += s[prev];
