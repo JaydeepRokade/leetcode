@@ -10,7 +10,7 @@ public:
                     valid = false;
                     break;
                 }
-                //jkahiu ksa kaskjj skk sk
+                //jkahiu ksa ka
                 if (tops[i] != val) top_swaps++;
                 if (bottoms[i] != val) bottom_swaps++;
                 
