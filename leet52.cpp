@@ -12,6 +12,7 @@ public:
                 }
                 if (tops[i] != val) top_swaps++;
                 if (bottoms[i] != val) bottom_swaps++;
+                
             }
             if (valid)
                 res = min(res, min(top_swaps, bottom_swaps));
