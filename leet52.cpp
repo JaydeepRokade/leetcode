@@ -10,7 +10,7 @@ public:
                     valid = false;
                     break;
                 }
-                //jkahiu ksa kaskjj skk skhdvk kdck kkdv;kkh; hd;v
+                //jkahiu ksa kaskjj skk skhdvk kdck kkdv;k
                 if (tops[i] != val) top_swaps++;
                 if (bottoms[i] != val) bottom_swaps++;
                 
