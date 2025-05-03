@@ -10,7 +10,7 @@ public:
                     valid = false;
                     break;
                 }
-                //jkahi
+               
                 if (tops[i] != val) top_swaps++;
                 if (bottoms[i] != val) bottom_swaps++;
                 
