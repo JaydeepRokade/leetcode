@@ -5,7 +5,7 @@ class Solution {
                 return p.first * 31 + p.second;
             }
         };
-    //eskhkafh dj dlls llsli kjr
+    //eskhkafh dj d
         int numEquivDominoPairs(vector<vector<int>>& dominoes) {
             unordered_map<pair<int,int>, int, hash_pair> mpp;
     
