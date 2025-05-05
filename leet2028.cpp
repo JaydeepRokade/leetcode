@@ -14,7 +14,7 @@ private:
         }
         return C;
     }
-    //dakek ,z,dlHovlSlh csalvlh vhzlhs
+    //dakek ,z,dlHovlSlh csa
     vector<vector<long long>> power(vector<vector<long long>> base, long long exp) {
         vector<vector<long long>> result = {{1, 0, 0}, {0, 1, 0}, {0, 0, 1}};
         while (exp > 0) {
