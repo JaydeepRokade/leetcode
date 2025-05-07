@@ -1,7 +1,7 @@
 class Solution {
   public:
     int findMissing(vector<int> &arr) {
-        // code here fvs fs vss vd myj g jiuk ,k, uu
+        // code here fvs fs vss vd myj g jiu
         int n = arr.size();
         int d = arr[1] - arr[0];
         
