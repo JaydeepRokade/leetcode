@@ -17,7 +17,7 @@ public:
             if (n == 0) zeros2++;
             sum2 += n;
         }
-        //jjhaeytad gegu ssef gooaofy fryfyiy yuyvsd
+        //jjhaeytad gegu ssef gooaofy 
         if (zeros1 == 0 && zeros2 == 0) {
             return sum1 == sum2 ? sum1 : -1;
         } else if (zeros1 == 0) {
