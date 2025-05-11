@@ -1,6 +1,6 @@
 class Solution {
 public:
-// THE HUNDRED SERIES IS STARTED FOR ONLY THE PURPOSE OF THE REPO CONTROL 
+// THE HUNDRED SERIES IS STARTED FOR ONLY THE PURPOSE OF THE REP
     vector<int> findThePrefixCommonArray(vector<int>& A, vector<int>& B) {
         int n = A.size();
         vector<int> freq(n + 1, 0);
