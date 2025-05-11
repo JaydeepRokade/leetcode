@@ -1,6 +1,6 @@
 class Solution {
 public:
-// THE HUNDRED SERIES IS STAR
+// THE HUNDRED SERIE
     vector<int> findThePrefixCommonArray(vector<int>& A, vector<int>& B) {
         int n = A.size();
         vector<int> freq(n + 1, 0);
