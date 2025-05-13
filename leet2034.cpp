@@ -5,7 +5,7 @@ public:
         int n=s.size();
         int freq[26]={0};
         for(char c: s) freq[c-'a']++;
-        //jaydep dcskpdso ndo zlalp FIUTUBO l
+        //jaydep dcskpdso ndo zlalp F
         for(t; t>0; t--){
             long long f25=freq[25], f0=freq[0];
             for(int i=25; i>=2; i--){
