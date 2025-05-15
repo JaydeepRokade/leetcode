@@ -3,7 +3,7 @@ using ll = long long;
 class Solution {
 public:
     const int mod = 1e9 + 7;
-    //awdswd vr mjjo rl sknvm jkgrk lslv nfvjv lsk pwepp totp  lalwlo salz, ,b,lspd psopefeo ;z;kcdvl
+    //awdswd vr mjjo rl sknvm jkgrk lslv nfvjv lsk pwepp totp  lalwlo salz, ,b,lspd psopefe
     vector<vector<ll>> multiplyMatrices(const vector<vector<ll>> &A, const vector<vector<ll>> &B) {
         int rowsA = A.size(), colsA = A[0].size(), colsB = B[0].size();
         vector<vector<__int128_t>> temp(rowsA, vector<__int128_t>(colsB, 0));
