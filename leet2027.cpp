@@ -16,7 +16,7 @@ class Solution {
             int count = 0;
             for (auto& [d, freq] : mpp)
                 count += freq * (freq - 1) / 2;
-    
+
             return count;
         }
     };
