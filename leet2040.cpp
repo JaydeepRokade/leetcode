@@ -7,7 +7,7 @@ public:
             else if (n == 1) one++;
             else two++;
         }
-        //kjay sk ovkdoj kdk iso ofvogo osp lfvkb ldspfip ojbj 
+        //kjay sk ovkdoj kdk iso ofvogo osp lfvkb ldspf
         for (int i = 0; i < nums.size(); ++i) {
             if (zero > 0) {
                 nums[i] = 0;
