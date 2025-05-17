@@ -7,7 +7,7 @@ public:
             else if (n == 1) one++;
             else two++;
         }
-        //kjay s
+        
         for (int i = 0; i < nums.size(); ++i) {
             if (zero > 0) {
                 nums[i] = 0;
