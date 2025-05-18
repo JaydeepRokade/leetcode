@@ -15,7 +15,7 @@ public:
             if (valid) good.push_back(i);
         }
         for (int i : good) dp[1][i] = 1;
-        //jaydivjoz
+        //jay
         for (int i : good) {
             for (int j : good) {
                 rowValid[i][j] = 1;
