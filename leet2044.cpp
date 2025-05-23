@@ -13,7 +13,7 @@ public:
         return dp0;
     }
 };
-//jaydlvpsp  fppkpv lmcl lzmceon ioffoo  l
+//jaydlvpsp  fppkpv lmcl lzmceon io
 auto init = []() {
     ios::sync_with_stdio(0);
     cin.tie(0);
