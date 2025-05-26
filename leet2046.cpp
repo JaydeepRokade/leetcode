@@ -1,4 +1,4 @@
-/* structure for a node
+
 
 
 
