@@ -13,7 +13,7 @@ public:
                 int last = m[temp].back();  // Get last occu
                 m[temp].pop_back();
                 v[i] = false;       // Remove '*'
-                v[last] = false;    // Remove corresponding smallest char
+                v[last] = false;    // Remove 
             } else {
                 pq.push(s[i]);
                 m[s[i]].push_back(i);
