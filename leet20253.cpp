@@ -4,8 +4,7 @@ public:
         int n = s.size();
         priority_queue<char, vector<char>, greater<char>> pq;  // Min-heap
         unordered_map<char, vector<int>> m;  // Stores indices of each character
-        vector<bool> v(n, true);  // Marks whether each char in s should be kept
-
+        vector<bool> v(n, true);  // Marks whether 
         for (int i = 0; i < n; i++) {
             if (s[i] == '*') {
                 char temp = pq.top();  // Get smalle
