@@ -3,7 +3,7 @@ public:
     string clearStars(string s) {
         int n = s.size();
         priority_queue<char, vector<char>, greater<char>> pq;  // Min-heap
-        unordered_map<char, vector<int>> m;  // Stores indices of each character
+        unordered_map<char, vector<int>> m;  // Stores 
         vector<bool> v(n, true);  // Marks whether 
         for (int i = 0; i < n; i++) {
             if (s[i] == '*') {
