@@ -7,9 +7,9 @@ public:
         vector<bool> v(n, true);  // Marks
         for (int i = 0; i < n; i++) {
             if (s[i] == '*') {
-                char temp = pq.top();  // Get smalle
+                char temp = pq.top();  // Get
                 pq.pop();
-                int last = m[temp].back();  // Get last occu
+                int last = m[temp].back();  // Get 
                 m[temp].pop_back();
                 v[i] = false;       // Remove '*'
                 v[last] = false;    // Remove 
