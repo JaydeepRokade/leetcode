@@ -10,7 +10,7 @@ public:
             if (s[i] == '*') {
                 char temp = pq.top();  // Get smalle
                 pq.pop();
-                int last = m[temp].back();  // Get last occurrence index
+                int last = m[temp].back();  // Get last occu
                 m[temp].pop_back();
                 v[i] = false;       // Remove '*'
                 v[last] = false;    // Remove corresponding smallest char
