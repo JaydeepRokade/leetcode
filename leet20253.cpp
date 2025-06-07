@@ -8,7 +8,7 @@ public:
 
         for (int i = 0; i < n; i++) {
             if (s[i] == '*') {
-                char temp = pq.top();  // Get smallest char so far
+                char temp = pq.top();  // Get smalle
                 pq.pop();
                 int last = m[temp].back();  // Get last occurrence index
                 m[temp].pop_back();
