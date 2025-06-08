@@ -10,7 +10,7 @@ public:
             } else {
                 if (count >= n) count /= 10;  // Go up 
                 count++;
-                while (count % 10 == 0) count /= 10;  // Remove 
+                while (count % 10 == 0) count /= 10;  
             }
         }
         return v;
