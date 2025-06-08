@@ -6,7 +6,7 @@ public:
         for (int i = 0; i < n; i++) {
             v.push_back(count);
             if (count * 10 <= n) {
-                count *= 10;  // Go deeper (e.g., 1 -> 10)
+                count *= 10; 
             } else {
                 if (count >= n) count /= 10;  // Go up 
                 count++;
