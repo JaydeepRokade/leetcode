@@ -10,7 +10,7 @@ public:
             } else {
                 if (count >= n) count /= 10;  // Go up if at the limit
                 count++;
-                while (count % 10 == 0) count /= 10;  // Remove trailing zeros
+                while (count % 10 == 0) count /= 10;  // Remove 
             }
         }
         return v;
