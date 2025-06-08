@@ -8,7 +8,7 @@ public:
             if (count * 10 <= n) {
                 count *= 10;  // Go deeper (e.g., 1 -> 10)
             } else {
-                if (count >= n) count /= 10;  // Go up if at the limit
+                if (count >= n) count /= 10;  // Go up 
                 count++;
                 while (count % 10 == 0) count /= 10;  // Remove 
             }
