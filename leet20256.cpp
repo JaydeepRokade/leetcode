@@ -13,7 +13,6 @@ public:
                 res *= 10;
             }
         }
-        //haj
         return static_cast<int>(res);
     }
 
