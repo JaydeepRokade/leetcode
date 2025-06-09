@@ -13,7 +13,7 @@ public:
                 res *= 10;
             }
         }
-        //hajx kjdk hjhj dfh
+        //hajx kjdk h
         return static_cast<int>(res);
     }
 
