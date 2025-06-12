@@ -12,7 +12,7 @@ public:
                 int last = m[temp].back();  // Get 
                 m[temp].pop_back();
                 v[i] = false;       // Remove
-                v[last] = false;    // Remove 
+                v[last] = false;    
             } else {
                 pq.push(s[i]);
                 m[s[i]].push_back(i);
