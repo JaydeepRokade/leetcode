@@ -2,7 +2,7 @@ class Solution {
 public:
     string clearStars(string s) {
         int n = s.size();
-        priority_queue<char, vector<char>, greater<char>> pq;  // Min-heap
+        priority_queue<char, vector<char>, greater<char>> pq; 
         unordered_map<char, vector<int>> m;  // Stores 
         vector<bool> v(n, true);  // Marks
         for (int i = 0; i < n; i++) {
