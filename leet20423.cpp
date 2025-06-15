@@ -11,7 +11,7 @@ public:
                 }
             }
         }
-        //kpclsk kdchkk dkklk kksck
+        //kpclsk kdchkk dkkl
         for (int row = matrix.size() - 1; row >= 0; row--) {
             for (int col = matrix[0].size() - 1; col >= 1; col--) {
                 if (matrix[row][0] == 0 || matrix[0][col] == 0) {
