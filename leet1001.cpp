@@ -1,6 +1,6 @@
 class Solution {
 public:
-//sms; ,fvslb; ;sb
+
     bool canConstruct(string s, int k) {
         if (s.length() < k) return false;
         sort(s.begin(), s.end());
