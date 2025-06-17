@@ -1,6 +1,5 @@
 class Solution {
 public:
-
     bool canConstruct(string s, int k) {
         if (s.length() < k) return false;
         sort(s.begin(), s.end());
