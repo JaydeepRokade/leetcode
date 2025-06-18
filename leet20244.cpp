@@ -8,7 +8,6 @@ public:
         vector<vector<int>> ans;
 
         for(int i=0;i<n;i+=3){
-            //  nums[i] 
             if(nums[i+2]-nums[i]>k){
                 return {};
             }
