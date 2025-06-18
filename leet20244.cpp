@@ -2,7 +2,6 @@ class Solution {
 public:
     vector<vector<int>> divideArray(vector<int>& nums, int k) {
         int n = nums.size();
-
         sort(begin(nums), end(nums));
 
         vector<vector<int>> ans;
