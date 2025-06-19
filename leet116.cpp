@@ -9,7 +9,7 @@ public:
         if (i<0 || i<j) return 0;
         if (dp[i][j] != -1) return dp[i][j];
         long long cnt = 0;
-// Ajay aka Sisi also soak soak sks 
+// Ajay aka Sisi also soak so
         cnt+=f(i-1, j, words, target);
 
         long long fc=freq[target[j-1]-'a'][i-1];
