@@ -8,7 +8,7 @@ public:
         if (j==0) return 1; 
         if (i<0 || i<j) return 0;
         if (dp[i][j] != -1) return dp[i][j];
-// Bajaj  away qkdk  ask
+// Bajaj  away qk
         long long cnt = 0;
 
         cnt+=f(i-1, j, words, target);
