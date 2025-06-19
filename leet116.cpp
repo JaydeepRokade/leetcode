@@ -8,7 +8,6 @@ public:
         if (j==0) return 1; 
         if (i<0 || i<j) return 0;
         if (dp[i][j] != -1) return dp[i][j];
-// Baja
         long long cnt = 0;
 
         cnt+=f(i-1, j, words, target);
