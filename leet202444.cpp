@@ -15,21 +15,16 @@ public:
         for (int l = 0; l < n; ++l) {
             int base = freqList[l];
             int limit = base + k;
-
             while (r < n && freqList[r] <= limit)
                 inWindowSum += freqList[r++];
-
             int rightCount = n - r;
             int rightSum = total - inWindowSum;
             int delRight = rightSum - rightCount * limit;
-
             best = min(best, removedLeft + delRight);
-
             total -= freqList[l];
             removedLeft += freqList[l];
             inWindowSum -= freqList[l];
         }
-
         return best;
     }
 };
