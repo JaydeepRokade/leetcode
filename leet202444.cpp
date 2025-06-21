@@ -1,5 +1,3 @@
-
-
 class Solution {
 public:
     int minimumDeletions(const string& word, int k) {
