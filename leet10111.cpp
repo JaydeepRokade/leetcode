@@ -1,6 +1,6 @@
 class Solution {
     public Node rotate(Node head, int k) {
-        // add code here chance Shah 
+        // add code here chanc
         Node temp = head;
         int size = 1;
         while(temp.next != null){
