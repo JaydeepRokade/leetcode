@@ -1,6 +1,5 @@
 class Solution {
     public Node rotate(Node head, int k) {
-        /
         Node temp = head;
         int size = 1;
         while(temp.next != null){
