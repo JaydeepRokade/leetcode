@@ -1,6 +1,6 @@
 class Solution {
 public:
-//gh fd vv v dsg f
+//gh fd vv v
     int minDominoRotations(vector<int>& tops, vector<int>& bottoms) {
         int res = INT_MAX;
         for (int val = 1; val <= 6; ++val) {
