@@ -6,7 +6,6 @@ class Solution {
     vector<int> A2;
     vector<int> B1;
     vector<int> B2;
-
     seperate(nums1, A1, A2);
     seperate(nums2, B1, B2);
 
