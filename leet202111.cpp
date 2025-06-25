@@ -14,7 +14,7 @@ class Solution {
     int sign = 1;
 
     if (k > negCount) {
-      k -= negCount;  //  find (k - negCount)-th positive
+      k -= negCount;  //  find (k - 
     } else {
       k = negCount - k + 1;  // Find (negCount - k + 1)-th abs(negative)
       sign = -1;
