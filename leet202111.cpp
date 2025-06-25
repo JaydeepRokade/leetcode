@@ -16,7 +16,7 @@ class Solution {
     if (k > negCount) {
       k -= negCount;   
     } else {
-      k = negCount - k + 1;  // Find (negCount - k + 1)-th abs
+      k = negCount - k + 1;  // Find (negCount - 
       sign = -1;
       swap(B1, B2);
     }
