@@ -1,6 +1,6 @@
 class Solution {
 public:
-//Ajay quality AJ aja J
+//Ajay quality AJ 
     vector<int> findThePrefixCommonArray(vector<int>& A, vector<int>& B) {
         int n = A.size();
         vector<int> freq(n + 1, 0);
