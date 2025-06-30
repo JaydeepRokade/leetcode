@@ -6,9 +6,7 @@ public:
         for (int num : nums) {
             frequencyMap[num]++;
         }
-
         int maxLength = 0;
-
     
         for (auto& [num, count] : frequencyMap) {
             if (frequencyMap.count(num + 1)) {
