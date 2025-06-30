@@ -9,7 +9,7 @@ public:
 
         int maxLength = 0;
 
-        // Step 2: Check all possible (num, num+1) pairs
+        // Step 2: Check all possible
         for (auto& [num, count] : frequencyMap) {
             if (frequencyMap.count(num + 1)) {
                 int currentLength = count + frequencyMap[num + 1];
