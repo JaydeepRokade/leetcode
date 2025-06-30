@@ -3,7 +3,6 @@ public:
     int findLHS(vector<int>& nums) {
         unordered_map<int, int> frequencyMap;
 
-        //
         for (int num : nums) {
             frequencyMap[num]++;
         }
