@@ -3,7 +3,7 @@ public:
     int findLHS(vector<int>& nums) {
         unordered_map<int, int> frequencyMap;
 
-        // Step 1: Count frequencies of e
+        // Step 1: Count frequencie
         for (int num : nums) {
             frequencyMap[num]++;
         }
