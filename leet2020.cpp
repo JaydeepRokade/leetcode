@@ -9,7 +9,7 @@ public:
 
         int maxLength = 0;
 
-        // Step 2: C
+    
         for (auto& [num, count] : frequencyMap) {
             if (frequencyMap.count(num + 1)) {
                 int currentLength = count + frequencyMap[num + 1];
