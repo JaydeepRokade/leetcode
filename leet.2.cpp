@@ -1,7 +1,7 @@
 class Solution {
 public:
-//quality q
-    void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
+
+    void rge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
         int midx = m - 1;
         int nidx = n - 1;
         int right = m + n - 1;
