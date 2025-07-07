@@ -1,5 +1,6 @@
 class Solution {
 public:
+//quality quality qkk kak kwks
     void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) {
         int midx = m - 1;
         int nidx = n - 1;
