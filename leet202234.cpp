@@ -1,6 +1,6 @@
 class Solution {
 public:
-//Anja jqjwjvwjwj  woke seen sw jekk
+//Anja jqjwjvwjwj  woke seen s
     int maxFreeTime(int eventTime, int k, vector<int>& startTime, vector<int>& endTime) {
         int count = startTime.size();
         vector<int> prefixSum(count + 1, 0);
