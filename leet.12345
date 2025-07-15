@@ -1,6 +1,5 @@
 class Solution {
 public:
-// aj 
     bool isValid(string s) {
         int n = s.length();
         if (n < 3) return false;
