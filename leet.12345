@@ -1,6 +1,6 @@
 class Solution {
 public:
-// aj aj aka also skin soak sksk Jr seen sksk jake keys 
+// aj aj aka also skin soak sksk Jr seen sksk 
     bool isValid(string s) {
         int n = s.length();
         if (n < 3) return false;
