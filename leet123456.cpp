@@ -1,6 +1,6 @@
 class Solution {
 public:
-//a kak akka kayak kak ks
+//a kak akka ka
     string makeFancyString(string s) {
         vector<char> chars(s.begin(), s.end());
         char last = chars[0];
