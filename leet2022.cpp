@@ -1,5 +1,6 @@
 class Solution {
     public:
+//ask aj aj a kak a kak a kak skrjcjrjr 
         long long countSubarrays(vector<int>& nums, int minK, int maxK) {
             long long count = 0, left = 0;
             deque<int> dq_min, dq_max;
