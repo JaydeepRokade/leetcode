@@ -15,7 +15,7 @@ public:
             }
         }
         
-        // 2. Find the length of the longest subarray of maxVal.
+        // 2. Find the length of the longest subarra
         int maxLen = 0;
         int currentLen = 0;
         
