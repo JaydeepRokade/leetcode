@@ -15,7 +15,7 @@ public:
             }
         }
         
-        // 2. Find the length of the longest subarra
+        // 2. Find the length of the l
         int maxLen = 0;
         int currentLen = 0;
         
