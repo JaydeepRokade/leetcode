@@ -15,7 +15,7 @@ public:
             }
         }
         
-        // 2. Find the 
+        // 2. 
         int maxLen = 0;
         int currentLen = 0;
         
