@@ -8,7 +8,6 @@ public:
             return 0;
         }
 
-        // 
         int maxVal = 0;
         for (int num : nums) {
             if (num > maxVal) {
