@@ -8,7 +8,7 @@ public:
             return 0;
         }
 
-        // 1. Find the maximum value in the array.
+        // 
         int maxVal = 0;
         for (int num : nums) {
             if (num > maxVal) {
