@@ -15,7 +15,7 @@ public:
             }
         }
         
-        // 2. Find the length of the l
+        // 2. Find the 
         int maxLen = 0;
         int currentLen = 0;
         
