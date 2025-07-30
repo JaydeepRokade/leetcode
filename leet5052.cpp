@@ -28,7 +28,7 @@ public:
             }
         }
         
-        // 3. Final check for a streak.
+        // 3
         return std::max(maxLen, currentLen);
     }
 };
