@@ -1,6 +1,6 @@
 class Solution {
 public:
-//also qjakvakqk kakvksksk jqj ek Julie
+//also qjakvakqk kakvksksk 
     int subarrayBitwiseORs(vector<int>& arr) {
         unordered_set<int> res, cur, next;
         for (int num : arr) {
