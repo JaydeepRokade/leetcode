@@ -1,6 +1,5 @@
 class Solution {
-public:
-    
+public:  
     int numOfUnplacedFruits(vector<int>& fruits, vector<int>& baskets) {
         const int n=fruits.size();
         int ans=n;
