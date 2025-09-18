@@ -2,7 +2,7 @@ class TaskManager {
   priority_queue<pair<int, int>> tasks;
   unordered_map<int, int> taskPriority;
   unordered_map<int, int> taskOwner;
-  //return after a 
+  //return after a long period of time
 public:
   TaskManager(vector<vector<int>>& tasks) {
     for (const auto& task : tasks) {
